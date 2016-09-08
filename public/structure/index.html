@@ -7,7 +7,7 @@
 	<meta name="description" content="A metadata schema for buildings">
 	<meta name="generator" content="Hugo 0.17-DEV" />
 	
-	<title> Brick Schema</title>
+	<title>Brick Structure &mdash; Brick Schema</title>
 	
 	<link rel="stylesheet" href="http://brickschema.orgcss/alabaster.css" type="text/css" />
 	<link rel="stylesheet" href="http://brickschema.orgcss/highlight.css" type="text/css" />
@@ -23,57 +23,21 @@
 				<div class="bodywrapper">
 					<div class="body" role="main">
 						
+	<h1>Brick Structure</h1>
 	
-		<h1>Brick</h1>
-		
+	<p><code>Brick</code> adheres to the RDF data model (<a href="https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/">Resource Description Framework</a>), which
+represents knowledge as a graph expressed as tuples of <code>(subject, predicate, object)</code> known as triples.</p>
 
-<h2 id="a-uniform-metadata-schema-for-buildings">A Uniform Metadata Schema for Buildings</h2>
+<p>The <code>Brick</code> examples and most of our development has used the Python
+<a href="https://rdflib.readthedocs.io/en/stable/">rdflib</a> library.</p>
 
-<p>Commercial buildings have long since been a primary target for applications
-from a number of areas: from cyber-physical systems to building energy use to
-improved human interactions in built environments. While technological advances
-have been made in these areas, such solutions rarely experience widespread
-adoption due to the lack of a common descriptive schema reducing the
-now-prohibitive cost of porting these applications and systems to different
-buildings.</p>
+<p>Applications and services can query the RDF representation of a building using
+SPARQL (<a href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL Protocol and RDF Query Language</a>).</p>
 
-<p><code>Brick</code> is an open-source, BSD-licensed development effort to create a uniform
-schema for representing metadata in buildings. <code>Brick</code> has three
-components:</p>
+<p>More detail and some examples will follow soon.</p>
 
-<ul>
-<li>An RDF class hierarchy describing the various building subsystems and the entities and equipment therein</li>
-<li>A minimal, principled set of relationships for connecting these entities together into a directed graph representing a building</li>
-<li>A method of encapsulation for composing complex components from a set of lower-level ones</li>
-</ul>
+<p>See <a href="/source">Getting Brick</a> for how to get these files</p>
 
-<p>Additionally, we have ported five real buildings to the <code>Brick</code> schema as examples.</p>
-
-<p>See <a href="/source">Getting Brick</a> for more information.</p>
-
-<p>Additionally, our paper in <a href="http://buildsys.acm.org/2016/">BuildSys 2016</a> provides additional detail</p>
-
-<h2 id="acknowledgements">Acknowledgements</h2>
-
-<p><code>Brick</code> is a joint effort by</p>
-
-<ul>
-<li>University of California, Berkeley</li>
-<li>University of California, San Diego</li>
-<li>University of California, Los Angeles</li>
-<li>University of Virginia</li>
-<li>Carnegie Mellon University</li>
-<li>IBM Research - Ireland</li>
-</ul>
-
-<h3 id="todos">TODOs</h3>
-
-<ul>
-<li>add the grant numbers</li>
-<li>link to the camera ready of the paper</li>
-</ul>
-
-	
 
 
 						
@@ -124,7 +88,12 @@ components:</p>
 </ul>
 
 
-		
+		<h3>Related Topics</h3>
+<ul>
+  <li><a href="http://brickschema.org">Documentation overview</a><ul>
+  
+  
+</ul>
 
 	</div>
 </div>
