@@ -1,0 +1,34 @@
+baseurl = "http://brickschema.org"
+languageCode = "en-us"
+metadataformat = "yaml"
+title = "Brick Schema"
+theme = "hugo-alabaster-theme"
+
+[params]
+	name = "Brick Schema"
+	description = "A metadata schema for buildings"
+
+	github_user   = "BuildSysUniformMetadata"
+	github_repo   = "GroundTruth"
+	github_banner = false
+
+	custom_css = []
+	custom_js  = []
+
+	highlightjs = "css/highlight.css"
+	favicon = "favicon.ico"
+
+[params.sidebar]
+	logo = "favicon.ico"
+
+
+	github_button  = true
+	travis_button  = false
+	codecov_button = false
+	gratipay = ""
+
+	show_relations = true
+
+[params.footer]
+	copyright = ""
+	show_powered_by = true
