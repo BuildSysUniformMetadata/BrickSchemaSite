@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brick Schema</title>
+    <link>http://brickschema.org/index.xml</link>
+    <description>Recent content on Brick Schema</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Apr 2016 15:21:22 +0200</lastBuildDate>
+    <atom:link href="http://brickschema.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Brick</title>
+      <link>http://brickschema.org/</link>
+      <pubDate>Sat, 23 Apr 2016 15:21:22 +0200</pubDate>
+      
+      <guid>http://brickschema.org/</guid>
+      <description>
+
+&lt;h2 id=&#34;a-uniform-metadata-schema-for-buildings&#34;&gt;A Uniform Metadata Schema for Buildings&lt;/h2&gt;
+
+&lt;p&gt;Commercial buildings have long since been a primary target for applications
+from a number of areas: from cyber-physical systems to building energy use to
+improved human interactions in built environments. While technological advances
+have been made in these areas, such solutions rarely experience widespread
+adoption due to the lack of a common descriptive schema reducing the
+now-prohibitive cost of porting these applications and systems to different
+buildings.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Brick&lt;/code&gt; is an open-source, BSD-licensed development effort to create a uniform
+schema for representing metadata in buildings. &lt;code&gt;Brick&lt;/code&gt; has three
+components:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An RDF class hierarchy describing the various building subsystems and the entities and equipment therein&lt;/li&gt;
+&lt;li&gt;A minimal, principled set of relationships for connecting these entities together into a directed graph representing a building&lt;/li&gt;
+&lt;li&gt;A method of encapsulation for composing complex components from a set of lower-level ones&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Additionally, we have ported five real buildings to the &lt;code&gt;Brick&lt;/code&gt; schema as examples.&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&#34;http://brickschema.org/source&#34;&gt;Getting Brick&lt;/a&gt; for more information.&lt;/p&gt;
+
+&lt;p&gt;Additionally, our paper in &lt;a href=&#34;http://buildsys.acm.org/2016/&#34;&gt;BuildSys 2016&lt;/a&gt; provides additional detail&lt;/p&gt;
+
+&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;Brick&lt;/code&gt; is a joint effort by&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;University of California, Berkeley&lt;/li&gt;
+&lt;li&gt;University of California, San Diego&lt;/li&gt;
+&lt;li&gt;University of California, Los Angeles&lt;/li&gt;
+&lt;li&gt;University of Virginia&lt;/li&gt;
+&lt;li&gt;Carnegie Mellon University&lt;/li&gt;
+&lt;li&gt;IBM Research - Ireland&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;todos&#34;&gt;TODOs&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;add the grant numbers&lt;/li&gt;
+&lt;li&gt;link to the camera ready of the paper&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting Brick</title>
+      <link>http://brickschema.org/source/</link>
+      <pubDate>Thu, 08 Sep 2016 15:07:57 -0700</pubDate>
+      
+      <guid>http://brickschema.org/source/</guid>
+      <description>&lt;p&gt;Development of the Brick Schema can be found on &lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/tree/master/Brick&#34;&gt;Brick TTL files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/tree/master/building_instances&#34;&gt;Example Buildings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/tree/master/application_examples&#34;&gt;Example Applications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Brick Structure</title>
+      <link>http://brickschema.org/structure/</link>
+      <pubDate>Thu, 08 Sep 2016 15:15:41 -0700</pubDate>
+      
+      <guid>http://brickschema.org/structure/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Brick&lt;/code&gt; adheres to the RDF data model (&lt;a href=&#34;https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/&#34;&gt;Resource Description Framework&lt;/a&gt;), which
+represents knowledge as a graph expressed as tuples of &lt;code&gt;(subject, predicate, object)&lt;/code&gt; known as triples.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;Brick&lt;/code&gt; examples and most of our development has used the Python
+&lt;a href=&#34;https://rdflib.readthedocs.io/en/stable/&#34;&gt;rdflib&lt;/a&gt; library.&lt;/p&gt;
+
+&lt;p&gt;Applications and services can query the RDF representation of a building using
+SPARQL (&lt;a href=&#34;https://www.w3.org/TR/rdf-sparql-query/&#34;&gt;SPARQL Protocol and RDF Query Language&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;More detail and some examples will follow soon.&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&#34;http://brickschema.org/source&#34;&gt;Getting Brick&lt;/a&gt; for how to get these files&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
