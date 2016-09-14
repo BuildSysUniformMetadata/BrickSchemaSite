@@ -87,7 +87,9 @@ components:&lt;/p&gt;
       <pubDate>Thu, 08 Sep 2016 15:15:41 -0700</pubDate>
       
       <guid>http://brickschema.org/structure/</guid>
-      <description>&lt;p&gt;&lt;code&gt;Brick&lt;/code&gt; adheres to the RDF data model (&lt;a href=&#34;https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/&#34;&gt;Resource Description Framework&lt;/a&gt;), which
+      <description>
+
+&lt;p&gt;&lt;code&gt;Brick&lt;/code&gt; adheres to the RDF data model (&lt;a href=&#34;https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/&#34;&gt;Resource Description Framework&lt;/a&gt;), which
 represents knowledge as a graph expressed as tuples of &lt;code&gt;(subject, predicate, object)&lt;/code&gt; known as triples.&lt;/p&gt;
 
 &lt;p&gt;The &lt;code&gt;Brick&lt;/code&gt; examples and most of our development has used the Python
@@ -99,6 +101,11 @@ SPARQL (&lt;a href=&#34;https://www.w3.org/TR/rdf-sparql-query/&#34;&gt;SPARQL P
 &lt;p&gt;More detail and some examples will follow soon.&lt;/p&gt;
 
 &lt;p&gt;See &lt;a href=&#34;http://brickschema.org/source&#34;&gt;Getting Brick&lt;/a&gt; for how to get these files&lt;/p&gt;
+
+&lt;h2 id=&#34;viewing-brick-files&#34;&gt;Viewing Brick Files&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://viewer.brickschema.org/&#34;&gt;http://viewer.brickschema.org/&lt;/a&gt; has a simple &lt;code&gt;.ttl&lt;/code&gt; file viewer that allows you to see the structure of Brick building files.
+&lt;a href=&#34;http://viewer.brickschema.org/static/soda.pdf&#34;&gt;Here&lt;/a&gt; is an example output for Soda Hall at UC Berkeley.&lt;/p&gt;
 </description>
     </item>
     

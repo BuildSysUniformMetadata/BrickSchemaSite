@@ -17,3 +17,9 @@ SPARQL ([SPARQL Protocol and RDF Query Language](https://www.w3.org/TR/rdf-sparq
 More detail and some examples will follow soon.
 
 See [Getting Brick](/source) for how to get these files
+
+
+## Viewing Brick Files
+
+[http://viewer.brickschema.org/](http://viewer.brickschema.org/) has a simple `.ttl` file viewer that allows you to see the structure of Brick building files.
+[Here](http://viewer.brickschema.org/static/soda.pdf) is an example output for Soda Hall at UC Berkeley.
