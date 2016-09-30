@@ -28,7 +28,7 @@ Additionally, we have ported five real buildings to the `Brick` schema as exampl
 
 See [Getting Brick](/source) for more information.
 
-Additionally, our paper in [BuildSys 2016](http://buildsys.acm.org/2016/) provides additional detail
+Our [paper](/static/Brick-BuildSys2016.pdf) in [BuildSys 2016](http://buildsys.acm.org/2016/) provides additional detail
 
 ## Acknowledgements
 
