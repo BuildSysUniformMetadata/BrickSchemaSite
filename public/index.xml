@@ -41,7 +41,7 @@ components:&lt;/p&gt;
 
 &lt;p&gt;See &lt;a href=&#34;http://brickschema.org/source&#34;&gt;Getting Brick&lt;/a&gt; for more information.&lt;/p&gt;
 
-&lt;p&gt;Additionally, our paper in &lt;a href=&#34;http://buildsys.acm.org/2016/&#34;&gt;BuildSys 2016&lt;/a&gt; provides additional detail&lt;/p&gt;
+&lt;p&gt;Our &lt;a href=&#34;http://brickschema.org/static/Brick-BuildSys2016.pdf&#34;&gt;paper&lt;/a&gt; in &lt;a href=&#34;http://buildsys.acm.org/2016/&#34;&gt;BuildSys 2016&lt;/a&gt; provides additional detail&lt;/p&gt;
 
 &lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
 
@@ -52,6 +52,7 @@ components:&lt;/p&gt;
 &lt;li&gt;University of California, San Diego&lt;/li&gt;
 &lt;li&gt;University of California, Los Angeles&lt;/li&gt;
 &lt;li&gt;University of Virginia&lt;/li&gt;
+&lt;li&gt;University of Southern Denmark (Grant: COORDICY(4106-00003B))&lt;/li&gt;
 &lt;li&gt;Carnegie Mellon University&lt;/li&gt;
 &lt;li&gt;IBM Research - Ireland&lt;/li&gt;
 &lt;/ul&gt;
