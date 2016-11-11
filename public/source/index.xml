@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Source-rsses on Brick Schema</title>
+    <title>Sources on Brick Schema</title>
     <link>http://brickschema.org/source/index.xml</link>
-    <description>Recent content in Source-rsses on Brick Schema</description>
+    <description>Recent content in Sources on Brick Schema</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Sep 2016 15:07:57 -0700</lastBuildDate>
