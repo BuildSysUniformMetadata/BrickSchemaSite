@@ -13,4 +13,4 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
-git subtree push --prefix=public https://github.com/BuildSysUniformMetadata/BrickSchemaSite.git gh-pages
+git subtree push --prefix=public git@github.com:BuildSysUniformMetadata/BrickSchemaSite.git gh-pages
