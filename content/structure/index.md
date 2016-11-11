@@ -2,7 +2,7 @@
 date: 2016-09-08T15:15:41-07:00
 menu: main
 title: Brick Structure
-weight: 2
+weight: 3
 ---
 
 `Brick` adheres to the RDF data model ([Resource Description Framework](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/)), which
