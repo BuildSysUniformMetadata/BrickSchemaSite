@@ -189,17 +189,23 @@ components:&lt;/p&gt;
 
 &lt;h2 id=&#34;brick-downloads&#34;&gt;Brick Downloads&lt;/h2&gt;
 
-&lt;p&gt;&lt;code&gt;Brick&lt;/code&gt; consists of several TTL (&amp;ldquo;Turtle&amp;rdquo;) files:
-* &lt;a href=&#34;http://brickschema.org/ttl/Brick.ttl&#34;&gt;&lt;code&gt;Brick.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; classes and tagsets
-* &lt;a href=&#34;http://brickschema.org/ttl/BrickFrame.ttl&#34;&gt;&lt;code&gt;BrickFrame.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; relationships
-* &lt;a href=&#34;http://brickschema.org/ttl/BrickTag.ttl&#34;&gt;&lt;code&gt;BrickTag.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; tags&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Brick&lt;/code&gt; consists of several TTL (&amp;ldquo;Turtle&amp;rdquo;) files:&lt;/p&gt;
 
-&lt;p&gt;Example buildings represented in &lt;code&gt;Brick&lt;/code&gt;:
-* &lt;a href=&#34;http://brickschema.org/ttl/ghc_brick.ttl&#34;&gt;Gates Hillman Center (Carnegie Mellon University)&lt;/a&gt;
-* &lt;a href=&#34;http://brickschema.org/ttl/rice_brick.ttl&#34;&gt;Rice Hall (University of Virginia)&lt;/a&gt;
-* &lt;a href=&#34;http://brickschema.org/ttl/ebu3b_brick.ttl&#34;&gt;Engineering Building Unit 3B (UC San Diego)&lt;/a&gt;
-* &lt;a href=&#34;http://brickschema.org/ttl/gtc_brick.ttl&#34;&gt;Green Tech House (Vejle, Denmark)&lt;/a&gt;
-* &lt;a href=&#34;http://brickschema.org/ttl/soda_brick.ttl&#34;&gt;Soda Hall (UC Berkeley)&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/Brick.ttl&#34;&gt;&lt;code&gt;Brick.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; classes and tagsets&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/BrickFrame.ttl&#34;&gt;&lt;code&gt;BrickFrame.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; relationships&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/BrickTag.ttl&#34;&gt;&lt;code&gt;BrickTag.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; tags&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Example buildings represented in &lt;code&gt;Brick&lt;/code&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/ghc_brick.ttl&#34;&gt;Gates Hillman Center (Carnegie Mellon University)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/rice_brick.ttl&#34;&gt;Rice Hall (University of Virginia)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/ebu3b_brick.ttl&#34;&gt;Engineering Building Unit 3B (UC San Diego)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/gtc_brick.ttl&#34;&gt;Green Tech House (Vejle, Denmark)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/soda_brick.ttl&#34;&gt;Soda Hall (UC Berkeley)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
 
