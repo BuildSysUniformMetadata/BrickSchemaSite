@@ -30,6 +30,77 @@ SPARQL (&lt;a href=&#34;https://www.w3.org/TR/rdf-sparql-query/&#34;&gt;SPARQL P
 
 &lt;p&gt;See &lt;a href=&#34;http://brickschema.org/source&#34;&gt;Getting Brick&lt;/a&gt; for how to get these files&lt;/p&gt;
 
+&lt;h2 id=&#34;brick-concepts&#34;&gt;Brick Concepts&lt;/h2&gt;
+
+&lt;p&gt;Our initiative paper has a full description of following concepts (&lt;a href=&#34;http://brickschema.org/papers/Brick-BuildSys2016.pdf&#34;&gt;paper&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h3 id=&#34;tagset&#34;&gt;Tagset&lt;/h3&gt;
+
+&lt;p&gt;Every entity in the buildings is represented by a Tagset composed of multiple Tags.
+We models Point (sensor, setpoint, &amp;hellip;), Equipment (vav, ahu, &amp;hellip;), Location (room, floor, &amp;hellip;), and MeasurementProperty (temperature, flow, &amp;hellip;) as entities in buildings.
+&lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a Tagset that consists of Tags, &lt;em&gt;Room&lt;/em&gt;, &lt;em&gt;Temperature&lt;/em&gt;, and &lt;em&gt;Sensor&lt;/em&gt;.
+Tagsets have a hierarchy depending on the granularity of entity definitions. &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a type of &lt;em&gt;Temperature Sensor&lt;/em&gt;. For example, one can find a collection of temperature sensors easily with this hierarchy.
+One can also add new Tagsets with Tags if it is not defined in our schema. (We encourage you to share your custom Tagsets with us to make &lt;code&gt;Brick&lt;/code&gt; more comprehensive (&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/issues&#34;&gt;Issues&lt;/a&gt;).)&lt;/p&gt;
+
+&lt;h3 id=&#34;tags&#34;&gt;Tags&lt;/h3&gt;
+
+&lt;p&gt;Tags represent unit concept in buildings and constitute Tagsets. Tags are used to ifer Tagsets&amp;rsquo; meaning especially for custom Tagsets.
+One can easily know &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is related to &lt;em&gt;Room&lt;/em&gt;, &lt;em&gt;Temperature&lt;/em&gt;, and &lt;em&gt;Sensor&lt;/em&gt; programatically.
+This moderates tag-based representation mechanisms to have more coverage.&lt;/p&gt;
+
+&lt;h3 id=&#34;properties&#34;&gt;Properties&lt;/h3&gt;
+
+&lt;p&gt;Properties represent relationships among entities. An entity, which is an instance of Tagset, may have properties to explain relationships with others.
+&lt;code&gt;Brick&lt;/code&gt; has following properties. We contrain subjects and objects that properties can have. We will support tool chains to validate the constraints.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Property Name&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Definition&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Subject&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Object&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;isLocatedIn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A is located in B.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Location&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;controls&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A determines the internal state of B.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;isPartOf&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A is a component/part of B.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;hasPoint&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A has a point B that functions for A.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Equipment&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Point&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;feeds&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Something flows from A to B.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&#34;viewing-brick-files&#34;&gt;Viewing Brick Files&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://viewer.brickschema.org/&#34;&gt;http://viewer.brickschema.org/&lt;/a&gt; has a simple &lt;code&gt;.ttl&lt;/code&gt; file viewer that allows you to see the structure of Brick building files.
