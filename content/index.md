@@ -33,11 +33,13 @@ Our [paper](/papers/Brick-BuildSys2016.pdf) in [BuildSys 2016](http://buildsys.a
 ## Brick Downloads
 
 `Brick` consists of several TTL ("Turtle") files:
+
 * [`Brick.ttl`](/ttl/Brick.ttl): `Brick` classes and tagsets
 * [`BrickFrame.ttl`](/ttl/BrickFrame.ttl): `Brick` relationships
 * [`BrickTag.ttl`](/ttl/BrickTag.ttl): `Brick` tags
 
 Example buildings represented in `Brick`:
+
 * [Gates Hillman Center (Carnegie Mellon University)](/ttl/ghc_brick.ttl)
 * [Rice Hall (University of Virginia)](/ttl/rice_brick.ttl)
 * [Engineering Building Unit 3B (UC San Diego)](/ttl/ebu3b_brick.ttl)
