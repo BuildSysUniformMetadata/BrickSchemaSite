@@ -7,7 +7,7 @@
 	<meta name="description" content="A metadata schema for buildings">
 	<meta name="generator" content="Hugo 0.17" />
 	
-	<title> Brick Schema</title>
+	<title>How is Brick Generated? &mdash; Brick Schema</title>
 	
 	<link rel="stylesheet" href="http://brickschema.org/css/alabaster.css" type="text/css" />
 	<link rel="stylesheet" href="http://brickschema.org/css/highlight.css" type="text/css" />
@@ -23,58 +23,29 @@
 				<div class="bodywrapper">
 					<div class="body" role="main">
 						
+	<h1>How is Brick Generated?</h1>
 	
-		<h1>Brick</h1>
-		
-
-<h2 id="a-uniform-metadata-schema-for-buildings">A Uniform Metadata Schema for Buildings</h2>
-
-<p>Commercial buildings have long since been a primary target for applications
-from a number of areas: from cyber-physical systems to building energy use to
-improved human interactions in built environments. While technological advances
-have been made in these areas, such solutions rarely experience widespread
-adoption due to the lack of a common descriptive schema reducing the
-now-prohibitive cost of porting these applications and systems to different
-buildings.</p>
-
-<p><code>Brick</code> is an open-source, BSD-licensed development effort to create a uniform
-schema for representing metadata in buildings. <code>Brick</code> has three
-components:</p>
-
-<ul>
-<li>An RDF class hierarchy describing the various building subsystems and the entities and equipment therein</li>
-<li>A minimal, principled set of relationships for connecting these entities together into a directed graph representing a building</li>
-<li>A method of encapsulation for composing complex components from a set of lower-level ones</li>
-</ul>
-
-<p>Additionally, we have ported five real buildings to the <code>Brick</code> schema as examples.</p>
-
-<p>See <a href="/source">Getting Brick</a> for more information.</p>
-
-<p>Our <a href="/papers/Brick-BuildSys2016.pdf">paper</a> in <a href="http://buildsys.acm.org/2016/">BuildSys 2016</a> provides additional detail</p>
-
-<h2 id="acknowledgements">Acknowledgements</h2>
-
-<p><code>Brick</code> is a joint effort by</p>
-
-<ul>
-<li>University of California, Berkeley</li>
-<li>University of California, San Diego</li>
-<li>University of California, Los Angeles</li>
-<li>University of Virginia</li>
-<li>University of Southern Denmark (Grant: COORDICY(4106-00003B))</li>
-<li>Carnegie Mellon University</li>
-<li>IBM Research - Ireland</li>
-</ul>
-
-<h3 id="todos">TODOs</h3>
-
-<ul>
-<li>add the grant numbers</li>
-<li>link to the camera ready of the paper</li>
-</ul>
-
 	
+
+<p><code>Brick</code> is created from collective efforts. Brick schema is generated through following steps.</p>
+
+<h3 id="processes">Processes</h3>
+
+<ol>
+<li>Identify necessary terminologies from existing building metadata and modern applications.<br />
+(<a href="https://ibm.biz/UCB-IBM-Apps.">Building application list</a>).</li>
+<li>Organize the terminologies into Tags/Tagsets in a spreadsheet.<br />
+(<a href="https://github.com/BuildSysUniformMetadata/GroundTruth/blob/master/Brick/Schema%20Engineering.xlsx">Schema Engineering Sheet</a>)</li>
+<li>A script converts the sheet to Turtle files.<br />
+(<a href="https://github.com/BuildSysUniformMetadata/GroundTruth/blob/master/Brick/BuildBrick.ipynb">Brick schema generator</a>)</li>
+<li>Generated schema will be shared via <a href="/source">Getting Brick</a></li>
+</ol>
+
+<h3 id="issue-tracking">Issue Tracking</h3>
+
+<p>We welcome any comments through Github issue page (<a href="https://github.com/BuildSysUniformMetadata/GroundTruth/issues">Issues</a>). Issues will be reviewed regularly by a board meeting.
+In particular, we are pleased to listen to you for missing Tagsets and inaccurate definitions.</p>
+
 
 
 						
@@ -129,7 +100,12 @@ components:</p>
 </ul>
 
 
-		
+		<h3>Related Topics</h3>
+<ul>
+  <li><a href="http://brickschema.org/">Documentation overview</a><ul>
+  
+  
+</ul>
 
 	</div>
 </div>
