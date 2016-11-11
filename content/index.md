@@ -30,8 +30,21 @@ See [Getting Brick](/source) for more information.
 
 Our [paper](/papers/Brick-BuildSys2016.pdf) in [BuildSys 2016](http://buildsys.acm.org/2016/) provides additional detail
 
-## Acknowledgements
+## Brick Downloads
 
+`Brick` consists of several TTL ("Turtle") files:
+* [`Brick.ttl`](/ttl/Brick.ttl): `Brick` classes and tagsets
+* [`BrickFrame.ttl`](/ttl/BrickFrame.ttl): `Brick` relationships
+* [`BrickTag.ttl`](/ttl/BrickTag.ttl): `Brick` tags
+
+Example buildings represented in `Brick`:
+* [Gates Hillman Center (Carnegie Mellon University)](/ttl/ghc_brick.ttl)
+* [Rice Hall (University of Virginia)](/ttl/rice_brick.ttl)
+* [Engineering Building Unit 3B (UC San Diego)](/ttl/ebu3b_brick.ttl)
+* [Green Tech House (Vejle, Denmark)](/ttl/gtc_brick.ttl)
+* [Soda Hall (UC Berkeley)](/ttl/soda_brick.ttl)
+
+## Acknowledgements
 
 `Brick` is a joint effort by
 
@@ -43,7 +56,18 @@ Our [paper](/papers/Brick-BuildSys2016.pdf) in [BuildSys 2016](http://buildsys.a
 * Carnegie Mellon University
 * IBM Research - Ireland
 
-
-### TODOs
-* add the grant numbers
-* link to the camera ready of the paper
+Brick is supported by:
+* National Science Foundation grants:
+    * CPS-1239552
+    * NSF-1636879
+    * IIS-1636916
+    * CSR-1526237
+    * CNS-1526841
+    * NSF-1305362
+- U.S. Department of Energy grant:
+    * DE-EE0006353
+- King Abdullah University of Science and Technology award
+- Sensor Innovation Award #OSR-2015-Sensors-2707
+- EU H2020 grant
+- TOPAs (676760)
+- Intel Corporation
