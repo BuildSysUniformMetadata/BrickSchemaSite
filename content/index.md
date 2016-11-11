@@ -45,6 +45,5 @@ Our [paper](/papers/Brick-BuildSys2016.pdf) in [BuildSys 2016](http://buildsys.a
 
 
 ### TODOs
-
 * add the grant numbers
 * link to the camera ready of the paper

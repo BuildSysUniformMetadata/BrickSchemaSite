@@ -40,6 +40,77 @@ SPARQL (<a href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL Protocol and RD
 
 <p>See <a href="/source">Getting Brick</a> for how to get these files</p>
 
+<h2 id="brick-concepts">Brick Concepts</h2>
+
+<p>Our initiative paper has a full description of following concepts (<a href="/papers/Brick-BuildSys2016.pdf">paper</a>)</p>
+
+<h3 id="tagset">Tagset</h3>
+
+<p>Every entity in the buildings is represented by a Tagset composed of multiple Tags.
+We models Point (sensor, setpoint, &hellip;), Equipment (vav, ahu, &hellip;), Location (room, floor, &hellip;), and MeasurementProperty (temperature, flow, &hellip;) as entities in buildings.
+<em>Room Temperature Sensor</em> is a Tagset that consists of Tags, <em>Room</em>, <em>Temperature</em>, and <em>Sensor</em>.
+Tagsets have a hierarchy depending on the granularity of entity definitions. <em>Room Temperature Sensor</em> is a type of <em>Temperature Sensor</em>. For example, one can find a collection of temperature sensors easily with this hierarchy.
+One can also add new Tagsets with Tags if it is not defined in our schema. (We encourage you to share your custom Tagsets with us to make <code>Brick</code> more comprehensive (<a href="https://github.com/BuildSysUniformMetadata/GroundTruth/issues">Issues</a>).)</p>
+
+<h3 id="tags">Tags</h3>
+
+<p>Tags represent unit concept in buildings and constitute Tagsets. Tags are used to ifer Tagsets&rsquo; meaning especially for custom Tagsets.
+One can easily know <em>Room Temperature Sensor</em> is related to <em>Room</em>, <em>Temperature</em>, and <em>Sensor</em> programatically.
+This moderates tag-based representation mechanisms to have more coverage.</p>
+
+<h3 id="properties">Properties</h3>
+
+<p>Properties represent relationships among entities. An entity, which is an instance of Tagset, may have properties to explain relationships with others.
+<code>Brick</code> has following properties. We contrain subjects and objects that properties can have. We will support tool chains to validate the constraints.</p>
+
+<table>
+<thead>
+<tr>
+<th align="center">Property Name</th>
+<th align="center">Definition</th>
+<th align="center">Subject</th>
+<th align="center">Object</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">isLocatedIn</td>
+<td align="center">A is located in B.</td>
+<td align="center"></td>
+<td align="center">Location</td>
+</tr>
+
+<tr>
+<td align="center">controls</td>
+<td align="center">A determines the internal state of B.</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">isPartOf</td>
+<td align="center">A is a component/part of B.</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">hasPoint</td>
+<td align="center">A has a point B that functions for A.</td>
+<td align="center">Equipment</td>
+<td align="center">Point</td>
+</tr>
+
+<tr>
+<td align="center">feeds</td>
+<td align="center">Something flows from A to B.</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+
 <h2 id="viewing-brick-files">Viewing Brick Files</h2>
 
 <p><a href="http://viewer.brickschema.org/">http://viewer.brickschema.org/</a> has a simple <code>.ttl</code> file viewer that allows you to see the structure of Brick building files.
