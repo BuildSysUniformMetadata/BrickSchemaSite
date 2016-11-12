@@ -10,7 +10,7 @@
     <atom:link href="http://brickschema.org/gen_process/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>How is Brick Generated?</title>
+      <title>Development</title>
       <link>http://brickschema.org/gen_process/</link>
       <pubDate>Thu, 08 Sep 2016 15:15:41 -0700</pubDate>
       
@@ -22,11 +22,11 @@
 &lt;h3 id=&#34;processes&#34;&gt;Processes&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Identify necessary terminologies from existing building metadata and modern applications.&lt;br /&gt;
+&lt;li&gt;Identify necessary terminologies from existing building metadata and modern applications.
 (&lt;a href=&#34;https://ibm.biz/UCB-IBM-Apps.&#34;&gt;Building application list&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Organize the terminologies into Tags/Tagsets in a spreadsheet.&lt;br /&gt;
+&lt;li&gt;Organize the terminologies into Tags/Tagsets in a spreadsheet.
 (&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/blob/master/Brick/Schema%20Engineering.xlsx&#34;&gt;Schema Engineering Sheet&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;A script converts the sheet to Turtle files.&lt;br /&gt;
+&lt;li&gt;A script converts the sheet to Turtle files.
 (&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/blob/master/Brick/BuildBrick.ipynb&#34;&gt;Brick schema generator&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Generated schema will be shared via &lt;a href=&#34;http://brickschema.org/source&#34;&gt;Getting Brick&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
