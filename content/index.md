@@ -59,6 +59,7 @@ Example buildings represented in `Brick`:
 * IBM Research - Ireland
 
 Brick is supported by:
+
 * National Science Foundation grants:
     * CPS-1239552
     * NSF-1636879
