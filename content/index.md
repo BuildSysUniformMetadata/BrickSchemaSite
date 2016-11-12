@@ -1,6 +1,6 @@
 ---
 date: 2016-04-23T15:21:22+02:00
-title: Home
+title: Brick
 type: homepage
 menu: main
 weight: 0
