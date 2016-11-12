@@ -1,6 +1,6 @@
 ---
 date: 2016-09-08T15:07:57-07:00
-title: Getting Brick
+title: Downloads
 menu: main
 weight: 1
 ---
