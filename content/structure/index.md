@@ -20,7 +20,7 @@ Our research paper describes Brick design and development in depth ([link to pap
 ### Tagset
 Every entity in the buildings is represented by a Tagset, which is decomposed to multiple Tags. 
 We model Point, Equipment, Location, and MeasurementProperty as entities in buildings. These are organized into a hierarchy.
-![alt text](/images/class_hierarchy.png "brick class hierarchy")
+![alt text](https://github.com/BuildSysUniformMetadata/BrickSchemaSite/blob/master/images/class_hierarchy.png "brick class hierarchy")
 
 
 As an example, *Room Temperature Sensor* is a Tagset that consists of Tags, *Room*, *Temperature*, and *Sensor*.
