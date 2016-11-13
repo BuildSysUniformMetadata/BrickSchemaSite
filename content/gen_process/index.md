@@ -17,7 +17,12 @@ weight: 3
 ([Brick schema generator](https://github.com/BuildSysUniformMetadata/GroundTruth/blob/master/Brick/BuildBrick.ipynb))
 4. Generated schema will be shared via [Getting Brick](/source)
 
+### Tools
+The `Brick` examples and most of our development has used the Python
+[rdflib](https://rdflib.readthedocs.io/en/stable/) library.
+
 ### Issue Tracking
 
 We welcome any comments through Github issue page ([Issues](https://github.com/BuildSysUniformMetadata/GroundTruth/issues)). Issues will be reviewed regularly by a board meeting.
 In particular, we are pleased to listen to you for missing Tagsets and inaccurate definitions.
+

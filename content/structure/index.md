@@ -6,26 +6,25 @@ weight: 3
 ---
 
 `Brick` adheres to the RDF data model ([Resource Description Framework](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/)), which
-represents knowledge as a graph expressed as tuples of `(subject, predicate, object)` known as triples.
-
-The `Brick` examples and most of our development has used the Python
-[rdflib](https://rdflib.readthedocs.io/en/stable/) library.
+represents knowledge as a graph expressed as triples: `subject, predicate, object`
 
 Applications and services can query the RDF representation of a building using
 SPARQL ([SPARQL Protocol and RDF Query Language](https://www.w3.org/TR/rdf-sparql-query/)).
 
-More detail and some examples will follow soon.
-
-
-See [Getting Brick](/source) for how to get these files
+See [downloads](/source) to get the source files of Brick.
 
 
 ## Brick Concepts
-Our initiative paper has a full description of following concepts ([paper](/papers/Brick-BuildSys2016.pdf))
+Our research paper describes Brick design and development in depth ([link to paper](/papers/Brick-BuildSys2016.pdf)). Here we highlight the essential concepts of Brick.
+
 ### Tagset
-Every entity in the buildings is represented by a Tagset composed of multiple Tags. 
-We models Point (sensor, setpoint, ...), Equipment (vav, ahu, ...), Location (room, floor, ...), and MeasurementProperty (temperature, flow, ...) as entities in buildings.
-*Room Temperature Sensor* is a Tagset that consists of Tags, *Room*, *Temperature*, and *Sensor*.
+Every entity in the buildings is represented by a Tagset, which is decomposed to multiple Tags. 
+We model Point, Equipment, Location, and MeasurementProperty as entities in buildings. These are organized into a hierarchy.
+![Class hierarchy of Brick][hierarchy_image]
+
+[hierarchy_image]: /images/class_hierarchy.png 
+
+As an example, *Room Temperature Sensor* is a Tagset that consists of Tags, *Room*, *Temperature*, and *Sensor*.
 Tagsets have a hierarchy depending on the granularity of entity definitions. *Room Temperature Sensor* is a type of *Temperature Sensor*. For example, one can find a collection of temperature sensors easily with this hierarchy.
 One can also add new Tagsets with Tags if it is not defined in our schema. (We encourage you to share your custom Tagsets with us to make `Brick` more comprehensive ([Issues](https://github.com/BuildSysUniformMetadata/GroundTruth/issues)).)
  

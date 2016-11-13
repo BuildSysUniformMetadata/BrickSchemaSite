@@ -31,6 +31,11 @@
 &lt;li&gt;Generated schema will be shared via &lt;a href=&#34;http://brickschema.org/source&#34;&gt;Getting Brick&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;Brick&lt;/code&gt; examples and most of our development has used the Python
+&lt;a href=&#34;https://rdflib.readthedocs.io/en/stable/&#34;&gt;rdflib&lt;/a&gt; library.&lt;/p&gt;
+
 &lt;h3 id=&#34;issue-tracking&#34;&gt;Issue Tracking&lt;/h3&gt;
 
 &lt;p&gt;We welcome any comments through Github issue page (&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/issues&#34;&gt;Issues&lt;/a&gt;). Issues will be reviewed regularly by a board meeting.
