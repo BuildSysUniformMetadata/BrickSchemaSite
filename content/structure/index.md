@@ -38,7 +38,7 @@ This moderates tag-based representation mechanisms to have more coverage.
 Relationships represent how Brick entities connect with each other.
 `Brick` has the following relationships. We constrain the subjects and the objects that relationships can have.
 
-| Property Name |               Definition              | Subject   | Object |
+| Relationship  |               Definition              | Subject   | Object |
 |:-------------:|:-------------------------------------:|:---------:|:------:|
 |  hasLocation  |           A is located in B.          |           |Location|
 |    controls   | A determines the internal state of B. |           |        |
