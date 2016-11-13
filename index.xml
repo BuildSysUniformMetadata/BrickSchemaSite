@@ -142,6 +142,11 @@ components:&lt;/p&gt;
 &lt;li&gt;Generated schema will be shared via &lt;a href=&#34;http://brickschema.org/source&#34;&gt;Getting Brick&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;Brick&lt;/code&gt; examples and most of our development has used the Python
+&lt;a href=&#34;https://rdflib.readthedocs.io/en/stable/&#34;&gt;rdflib&lt;/a&gt; library.&lt;/p&gt;
+
 &lt;h3 id=&#34;issue-tracking&#34;&gt;Issue Tracking&lt;/h3&gt;
 
 &lt;p&gt;We welcome any comments through Github issue page (&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/issues&#34;&gt;Issues&lt;/a&gt;). Issues will be reviewed regularly by a board meeting.
@@ -158,27 +163,24 @@ In particular, we are pleased to listen to you for missing Tagsets and inaccurat
       <description>
 
 &lt;p&gt;&lt;code&gt;Brick&lt;/code&gt; adheres to the RDF data model (&lt;a href=&#34;https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/&#34;&gt;Resource Description Framework&lt;/a&gt;), which
-represents knowledge as a graph expressed as tuples of &lt;code&gt;(subject, predicate, object)&lt;/code&gt; known as triples.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;Brick&lt;/code&gt; examples and most of our development has used the Python
-&lt;a href=&#34;https://rdflib.readthedocs.io/en/stable/&#34;&gt;rdflib&lt;/a&gt; library.&lt;/p&gt;
+represents knowledge as a graph expressed as triples: &lt;code&gt;subject, predicate, object&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Applications and services can query the RDF representation of a building using
 SPARQL (&lt;a href=&#34;https://www.w3.org/TR/rdf-sparql-query/&#34;&gt;SPARQL Protocol and RDF Query Language&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;More detail and some examples will follow soon.&lt;/p&gt;
-
-&lt;p&gt;See &lt;a href=&#34;http://brickschema.org/source&#34;&gt;Getting Brick&lt;/a&gt; for how to get these files&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&#34;http://brickschema.org/source&#34;&gt;downloads&lt;/a&gt; to get the source files of Brick.&lt;/p&gt;
 
 &lt;h2 id=&#34;brick-concepts&#34;&gt;Brick Concepts&lt;/h2&gt;
 
-&lt;p&gt;Our initiative paper has a full description of following concepts (&lt;a href=&#34;http://brickschema.org/papers/Brick-BuildSys2016.pdf&#34;&gt;paper&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Our research paper describes Brick design and development in depth (&lt;a href=&#34;http://brickschema.org/papers/Brick-BuildSys2016.pdf&#34;&gt;link to paper&lt;/a&gt;). Here we highlight the essential concepts of Brick.&lt;/p&gt;
 
 &lt;h3 id=&#34;tagset&#34;&gt;Tagset&lt;/h3&gt;
 
-&lt;p&gt;Every entity in the buildings is represented by a Tagset composed of multiple Tags.
-We models Point (sensor, setpoint, &amp;hellip;), Equipment (vav, ahu, &amp;hellip;), Location (room, floor, &amp;hellip;), and MeasurementProperty (temperature, flow, &amp;hellip;) as entities in buildings.
-&lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a Tagset that consists of Tags, &lt;em&gt;Room&lt;/em&gt;, &lt;em&gt;Temperature&lt;/em&gt;, and &lt;em&gt;Sensor&lt;/em&gt;.
+&lt;p&gt;Every entity in the buildings is represented by a Tagset, which is decomposed to multiple Tags.
+We model Point, Equipment, Location, and MeasurementProperty as entities in buildings. These are organized into a hierarchy.
+&lt;img src=&#34;http://brickschema.org/images/class_hierarchy.png&#34; alt=&#34;Class hierarchy of Brick&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As an example, &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a Tagset that consists of Tags, &lt;em&gt;Room&lt;/em&gt;, &lt;em&gt;Temperature&lt;/em&gt;, and &lt;em&gt;Sensor&lt;/em&gt;.
 Tagsets have a hierarchy depending on the granularity of entity definitions. &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a type of &lt;em&gt;Temperature Sensor&lt;/em&gt;. For example, one can find a collection of temperature sensors easily with this hierarchy.
 One can also add new Tagsets with Tags if it is not defined in our schema. (We encourage you to share your custom Tagsets with us to make &lt;code&gt;Brick&lt;/code&gt; more comprehensive (&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/issues&#34;&gt;Issues&lt;/a&gt;).)&lt;/p&gt;
 

@@ -28,27 +28,24 @@
 	
 
 <p><code>Brick</code> adheres to the RDF data model (<a href="https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/">Resource Description Framework</a>), which
-represents knowledge as a graph expressed as tuples of <code>(subject, predicate, object)</code> known as triples.</p>
-
-<p>The <code>Brick</code> examples and most of our development has used the Python
-<a href="https://rdflib.readthedocs.io/en/stable/">rdflib</a> library.</p>
+represents knowledge as a graph expressed as triples: <code>subject, predicate, object</code></p>
 
 <p>Applications and services can query the RDF representation of a building using
 SPARQL (<a href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL Protocol and RDF Query Language</a>).</p>
 
-<p>More detail and some examples will follow soon.</p>
-
-<p>See <a href="/source">Getting Brick</a> for how to get these files</p>
+<p>See <a href="/source">downloads</a> to get the source files of Brick.</p>
 
 <h2 id="brick-concepts">Brick Concepts</h2>
 
-<p>Our initiative paper has a full description of following concepts (<a href="/papers/Brick-BuildSys2016.pdf">paper</a>)</p>
+<p>Our research paper describes Brick design and development in depth (<a href="/papers/Brick-BuildSys2016.pdf">link to paper</a>). Here we highlight the essential concepts of Brick.</p>
 
 <h3 id="tagset">Tagset</h3>
 
-<p>Every entity in the buildings is represented by a Tagset composed of multiple Tags.
-We models Point (sensor, setpoint, &hellip;), Equipment (vav, ahu, &hellip;), Location (room, floor, &hellip;), and MeasurementProperty (temperature, flow, &hellip;) as entities in buildings.
-<em>Room Temperature Sensor</em> is a Tagset that consists of Tags, <em>Room</em>, <em>Temperature</em>, and <em>Sensor</em>.
+<p>Every entity in the buildings is represented by a Tagset, which is decomposed to multiple Tags.
+We model Point, Equipment, Location, and MeasurementProperty as entities in buildings. These are organized into a hierarchy.
+<img src="/images/class_hierarchy.png" alt="Class hierarchy of Brick" /></p>
+
+<p>As an example, <em>Room Temperature Sensor</em> is a Tagset that consists of Tags, <em>Room</em>, <em>Temperature</em>, and <em>Sensor</em>.
 Tagsets have a hierarchy depending on the granularity of entity definitions. <em>Room Temperature Sensor</em> is a type of <em>Temperature Sensor</em>. For example, one can find a collection of temperature sensors easily with this hierarchy.
 One can also add new Tagsets with Tags if it is not defined in our schema. (We encourage you to share your custom Tagsets with us to make <code>Brick</code> more comprehensive (<a href="https://github.com/BuildSysUniformMetadata/GroundTruth/issues">Issues</a>).)</p>
 
