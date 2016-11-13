@@ -181,20 +181,19 @@ We model Point, Equipment, Location, and MeasurementProperty as entities in buil
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/BuildSysUniformMetadata/BrickSchemaSite/master/images/class_hierarchy.png&#34; alt=&#34;Brick Class Hierarchy&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;As an example, &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a Tagset that consists of Tags, &lt;em&gt;Room&lt;/em&gt;, &lt;em&gt;Temperature&lt;/em&gt;, and &lt;em&gt;Sensor&lt;/em&gt;.
-Tagsets have a hierarchy depending on the granularity of entity definitions. &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a type of &lt;em&gt;Temperature Sensor&lt;/em&gt;. For example, one can find a collection of temperature sensors easily with this hierarchy.
-One can also add new Tagsets with Tags if it is not defined in our schema. (We encourage you to share your custom Tagsets with us to make &lt;code&gt;Brick&lt;/code&gt; more comprehensive (&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/issues&#34;&gt;Issues&lt;/a&gt;).)&lt;/p&gt;
+&lt;p&gt;As an example, &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a Tagset that consists of Tags, &lt;em&gt;Room&lt;/em&gt;, &lt;em&gt;Temperature&lt;/em&gt;, and &lt;em&gt;Sensor&lt;/em&gt;. &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a subclass of &lt;em&gt;Temperature Sensor&lt;/em&gt;, which itself is a subclass of &lt;em&gt;Sensor&lt;/em&gt;. With such a hierarchy, one can find a collection of temperature sensors easily using SPARQL or tag search.
+One can also add new Tagsets with Tags if it is not defined in our schema. We encourage you to share your custom Tagsets with us to make &lt;code&gt;Brick&lt;/code&gt; more comprehensive (&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/issues&#34;&gt;Issues&lt;/a&gt;).)&lt;/p&gt;
 
 &lt;h3 id=&#34;tags&#34;&gt;Tags&lt;/h3&gt;
 
-&lt;p&gt;Tags represent unit concept in buildings and constitute Tagsets. Tags are used to ifer Tagsets&amp;rsquo; meaning especially for custom Tagsets.
-One can easily know &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is related to &lt;em&gt;Room&lt;/em&gt;, &lt;em&gt;Temperature&lt;/em&gt;, and &lt;em&gt;Sensor&lt;/em&gt; programatically.
+&lt;p&gt;Tags represent unit concept in buildings and are decomposed from Tagsets. Tags are used to infer Tagsets&amp;rsquo; meaning and search without using a query language.
+For example, one can easily know &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is related to &lt;em&gt;Room&lt;/em&gt;, &lt;em&gt;Temperature&lt;/em&gt;, and &lt;em&gt;Sensor&lt;/em&gt; programatically.
 This moderates tag-based representation mechanisms to have more coverage.&lt;/p&gt;
 
-&lt;h3 id=&#34;properties&#34;&gt;Properties&lt;/h3&gt;
+&lt;h3 id=&#34;relationships&#34;&gt;Relationships&lt;/h3&gt;
 
-&lt;p&gt;Properties represent relationships among entities. An entity, which is an instance of Tagset, may have properties to explain relationships with others.
-&lt;code&gt;Brick&lt;/code&gt; has following properties. We contrain subjects and objects that properties can have. We will support tool chains to validate the constraints.&lt;/p&gt;
+&lt;p&gt;Relationships represent how Brick entities connect with each other.
+&lt;code&gt;Brick&lt;/code&gt; has the following relationships. We constrain the subjects and the objects that relationships can have.&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -208,7 +207,7 @@ This moderates tag-based representation mechanisms to have more coverage.&lt;/p&
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;isLocatedIn&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;hasLocation&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;A is located in B.&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;Location&lt;/td&gt;

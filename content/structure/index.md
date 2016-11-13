@@ -24,24 +24,23 @@ We model Point, Equipment, Location, and MeasurementProperty as entities in buil
 ![Brick Class Hierarchy]
 (https://raw.githubusercontent.com/BuildSysUniformMetadata/BrickSchemaSite/master/images/class_hierarchy.png)
 
-As an example, *Room Temperature Sensor* is a Tagset that consists of Tags, *Room*, *Temperature*, and *Sensor*.
-Tagsets have a hierarchy depending on the granularity of entity definitions. *Room Temperature Sensor* is a type of *Temperature Sensor*. For example, one can find a collection of temperature sensors easily with this hierarchy.
-One can also add new Tagsets with Tags if it is not defined in our schema. (We encourage you to share your custom Tagsets with us to make `Brick` more comprehensive ([Issues](https://github.com/BuildSysUniformMetadata/GroundTruth/issues)).)
+As an example, *Room Temperature Sensor* is a Tagset that consists of Tags, *Room*, *Temperature*, and *Sensor*. *Room Temperature Sensor* is a subclass of *Temperature Sensor*, which itself is a subclass of *Sensor*. With such a hierarchy, one can find a collection of temperature sensors easily using SPARQL or tag search.
+One can also add new Tagsets with Tags if it is not defined in our schema. We encourage you to share your custom Tagsets with us to make `Brick` more comprehensive ([Issues](https://github.com/BuildSysUniformMetadata/GroundTruth/issues)).)
  
 
 ### Tags
-Tags represent unit concept in buildings and constitute Tagsets. Tags are used to ifer Tagsets' meaning especially for custom Tagsets.
-One can easily know *Room Temperature Sensor* is related to *Room*, *Temperature*, and *Sensor* programatically.
+Tags represent unit concept in buildings and are decomposed from Tagsets. Tags are used to infer Tagsets' meaning and search without using a query language.
+For example, one can easily know *Room Temperature Sensor* is related to *Room*, *Temperature*, and *Sensor* programatically.
 This moderates tag-based representation mechanisms to have more coverage.
  
 
-### Properties
-Properties represent relationships among entities. An entity, which is an instance of Tagset, may have properties to explain relationships with others.
-`Brick` has following properties. We contrain subjects and objects that properties can have. We will support tool chains to validate the constraints.
+### Relationships
+Relationships represent how Brick entities connect with each other.
+`Brick` has the following relationships. We constrain the subjects and the objects that relationships can have.
 
 | Property Name |               Definition              | Subject | Object |
 |:-------------:|:-------------------------------------:|:-------:|:------:|
-|  isLocatedIn  |           A is located in B.          |         |Location|
+|  hasLocation  |           A is located in B.          |         |Location|
 |    controls   | A determines the internal state of B. |         |        |
 |    isPartOf   |      A is a component/part of B.      |         |        |
 |    hasPoint   | A has a point B that functions for A. |Equipment| Point  |
