@@ -178,9 +178,7 @@ SPARQL (&lt;a href=&#34;https://www.w3.org/TR/rdf-sparql-query/&#34;&gt;SPARQL P
 
 &lt;p&gt;Every entity in the buildings is represented by a Tagset, which is decomposed to multiple Tags.
 We model Point, Equipment, Location, and MeasurementProperty as entities in buildings. These are organized into a hierarchy.
-&lt;img src=&#34;http://brickschema.org/images/class_hierarchy.png&#34; alt=&#34;Class hierarchy of Brick&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As an example, &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a Tagset that consists of Tags, &lt;em&gt;Room&lt;/em&gt;, &lt;em&gt;Temperature&lt;/em&gt;, and &lt;em&gt;Sensor&lt;/em&gt;.
+As an example, &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a Tagset that consists of Tags, &lt;em&gt;Room&lt;/em&gt;, &lt;em&gt;Temperature&lt;/em&gt;, and &lt;em&gt;Sensor&lt;/em&gt;.
 Tagsets have a hierarchy depending on the granularity of entity definitions. &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a type of &lt;em&gt;Temperature Sensor&lt;/em&gt;. For example, one can find a collection of temperature sensors easily with this hierarchy.
 One can also add new Tagsets with Tags if it is not defined in our schema. (We encourage you to share your custom Tagsets with us to make &lt;code&gt;Brick&lt;/code&gt; more comprehensive (&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/issues&#34;&gt;Issues&lt;/a&gt;).)&lt;/p&gt;
 
