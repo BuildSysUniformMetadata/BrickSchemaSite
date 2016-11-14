@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contact-rsses on Brick Schema</title>
+    <link>http://brickschema.org/contact/index.xml</link>
+    <description>Recent content in Contact-rsses on Brick Schema</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Sep 2016 15:15:41 -0700</lastBuildDate>
+    <atom:link href="http://brickschema.org/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contact</title>
+      <link>http://brickschema.org/contact/</link>
+      <pubDate>Thu, 08 Sep 2016 15:15:41 -0700</pubDate>
+      
+      <guid>http://brickschema.org/contact/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/d/forum/brickschema&#34;&gt;User Forum&lt;/a&gt;&lt;br /&gt;
+we will actively respond to users&amp;rsquo; any concerns or questions.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/issues&#34;&gt;Github Issues&lt;/a&gt;&lt;br /&gt;
+Any technical features can be discussed. We welcome any proposals including new Tagsets and feature.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
