@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Downloads on Brick Schema</title>
+    <link>http://brickschema.org/download/index.xml</link>
+    <description>Recent content in Downloads on Brick Schema</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Sep 2016 15:07:57 -0700</lastBuildDate>
+    <atom:link href="http://brickschema.org/download/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Downloads</title>
+      <link>http://brickschema.org/download/</link>
+      <pubDate>Thu, 08 Sep 2016 15:07:57 -0700</pubDate>
+      
+      <guid>http://brickschema.org/download/</guid>
+      <description>
+
+&lt;h2 id=&#34;brick-downloads&#34;&gt;Brick Downloads&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;Brick&lt;/code&gt; consists of several TTL (&amp;ldquo;Turtle&amp;rdquo;) files:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/Brick.ttl&#34;&gt;&lt;code&gt;Brick.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; classes and tagsets&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/BrickFrame.ttl&#34;&gt;&lt;code&gt;BrickFrame.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; relationships&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/BrickTag.ttl&#34;&gt;&lt;code&gt;BrickTag.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; tags&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;brick-building-examples&#34;&gt;Brick Building Examples&lt;/h2&gt;
+
+&lt;p&gt;Example buildings represented in &lt;code&gt;Brick&lt;/code&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/ghc_brick.ttl&#34;&gt;Gates Hillman Center&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Location: Carnegie Mellon University, Pittsburgh, PA, USA&lt;/li&gt;
+&lt;li&gt;BMS: Automated Logic Controls&lt;/li&gt;
+&lt;li&gt;Built: 2009&lt;/li&gt;
+&lt;li&gt;Size: 217,000 sq ft&lt;/li&gt;
+&lt;li&gt;Number of points: 8,292&lt;/li&gt;
+&lt;li&gt;Tagsets mapped: 99%&lt;/li&gt;
+&lt;li&gt;Number of Relationships: 35,693&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/rice_brick.ttl&#34;&gt;Rice Hall&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Location: University of Virginia, Charlottesville, VA, USA&lt;/li&gt;
+&lt;li&gt;Built: 2011&lt;/li&gt;
+&lt;li&gt;Size: 100,000 sq ft&lt;/li&gt;
+&lt;li&gt;Number of points: 1,300&lt;/li&gt;
+&lt;li&gt;Tagsets mapped: 98.5%&lt;/li&gt;
+&lt;li&gt;Number of Relationships: 2,158&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/ebu3b_brick.ttl&#34;&gt;Engineering Building Unit 3B&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Location: UC San Diego, San Diego, CA, USA&lt;/li&gt;
+&lt;li&gt;BMS: Johnson Controls&lt;/li&gt;
+&lt;li&gt;Built: 2004&lt;/li&gt;
+&lt;li&gt;Size: 150,000 sq ft&lt;/li&gt;
+&lt;li&gt;Number of points: 4,594&lt;/li&gt;
+&lt;li&gt;Tagsets mapped: 96%&lt;/li&gt;
+&lt;li&gt;Number of Relationships: 8,383&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/gtc_brick.ttl&#34;&gt;Green Tech House&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Location: Vejle, Denmark&lt;/li&gt;
+&lt;li&gt;BMS: Niagara&lt;/li&gt;
+&lt;li&gt;Built: 2014&lt;/li&gt;
+&lt;li&gt;Size: 38,000&lt;/li&gt;
+&lt;li&gt;Number of points: 956&lt;/li&gt;
+&lt;li&gt;Tagsets mapped: 98.8%&lt;/li&gt;
+&lt;li&gt;Number of Relationships: 19,086&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/soda_brick.ttl&#34;&gt;Soda Hall&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Location: UC Berkeley, Berkeley, CA&lt;/li&gt;
+&lt;li&gt;BMS: Barrington Systems&lt;/li&gt;
+&lt;li&gt;Built: 1994&lt;/li&gt;
+&lt;li&gt;Size: 110,565&lt;/li&gt;
+&lt;li&gt;Number of points: 1,586&lt;/li&gt;
+&lt;li&gt;Tagsets mapped: 98.7%&lt;/li&gt;
+&lt;li&gt;Number of Relationships: 1,939&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
