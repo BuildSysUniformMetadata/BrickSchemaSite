@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Brick Schema</title>
-    <link>http://brickschema.org/</link>
+    <link>http://brickschema.org/index.xml</link>
     <description>Recent content on Brick Schema</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -149,7 +149,7 @@ components:&lt;/p&gt;
 
 &lt;h3 id=&#34;extending&#34;&gt;Extending&lt;/h3&gt;
 
-&lt;p&gt;General extension of brick should be done by posting an issue on github. Experimental extensions can be implemented in separate namespaces.&lt;/p&gt;
+&lt;p&gt;Global extension of brick should be done by posting an issue on github. User extensions can be implemented in separate namespaces.&lt;/p&gt;
 
 &lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
 
