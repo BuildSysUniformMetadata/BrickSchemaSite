@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>Gen_processes on Brick Schema</title>
     <link>http://brickschema.org/gen_process/</link>
     <description>Recent content in Gen_processes on Brick Schema</description>
+=======
+    <title>Gen_process-rsses on Brick Schema</title>
+    <link>http://brickschema.org/gen_process/index.xml</link>
+    <description>Recent content in Gen_process-rsses on Brick Schema</description>
+>>>>>>> 64522b44042017de1e204c0a254e84d75871a3bd
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Sep 2016 15:15:41 -0700</lastBuildDate>
@@ -32,7 +38,11 @@
 
 &lt;h3 id=&#34;extending&#34;&gt;Extending&lt;/h3&gt;
 
+<<<<<<< HEAD
 &lt;p&gt;General extension of brick should be done by posting an issue on github. Experimental extensions can be implemented in separate namespaces.&lt;/p&gt;
+=======
+&lt;p&gt;Global extension of brick should be done by posting an issue on github. User extensions can be implemented in separate namespaces.&lt;/p&gt;
+>>>>>>> 64522b44042017de1e204c0a254e84d75871a3bd
 
 &lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
 
