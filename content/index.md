@@ -74,3 +74,8 @@ Brick is supported by:
 - EU H2020 grant
 - TOPAs (676760)
 - Intel Corporation
+
+
+## Ask
+
+* [User Forum](https://groups.google.com/d/forum/brickschema)
