@@ -3,21 +3,16 @@
   
   <url>
     <loc>http://brickschema.org/</loc>
-    <lastmod>2016-04-23T15:21:22+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://brickschema.org/</loc>
-    <lastmod>2016-04-23T15:21:22+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://brickschema.org/source/</loc>
     <lastmod>2016-09-08T15:07:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://brickschema.org/gen_process/</loc>
+    <loc>http://brickschema.org/download/</loc>
+    <lastmod>2016-09-08T15:07:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://brickschema.org/source/</loc>
     <lastmod>2016-09-08T15:15:41-07:00</lastmod>
   </url>
   
@@ -29,6 +24,11 @@
   <url>
     <loc>http://brickschema.org/contact/</loc>
     <lastmod>2016-09-08T15:15:41-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://brickschema.org/</loc>
+    <lastmod>2016-04-23T15:21:22+02:00</lastmod>
   </url>
   
 </urlset>
