@@ -25,7 +25,7 @@ We model Point, Equipment, Location, and MeasurementProperty as entities in buil
 (https://raw.githubusercontent.com/BuildSysUniformMetadata/BrickSchemaSite/master/images/class_hierarchy.png)
 
 As an example, *Room Temperature Sensor* is a Tagset that consists of Tags, *Room*, *Temperature*, and *Sensor*. *Room Temperature Sensor* is a subclass of *Temperature Sensor*, which itself is a subclass of *Sensor*. With such a hierarchy, one can find a collection of temperature sensors easily using SPARQL or tag search.
-One can also add new Tagsets with Tags if it is not defined in our schema. We encourage you to share your custom Tagsets with us to make `Brick` more comprehensive ([Issues](https://github.com/BuildSysUniformMetadata/GroundTruth/issues)).)
+One can also add new Tagsets with Tags if it is not defined in our schema. We encourage you to share your custom Tagsets with us to make `Brick` more comprehensive ([Issues](https://github.com/BuildSysUniformMetadata/GroundTruth/issues)).
 
 
 ### Tags
