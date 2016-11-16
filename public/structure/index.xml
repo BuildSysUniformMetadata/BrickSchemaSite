@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Structures on Brick Schema</title>
-    <link>http://brickschema.org/structure/index.xml</link>
+    <link>http://brickschema.org/structure/</link>
     <description>Recent content in Structures on Brick Schema</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -27,17 +27,17 @@ SPARQL (&lt;a href=&#34;https://www.w3.org/TR/rdf-sparql-query/&#34;&gt;SPARQL P
 
 &lt;h2 id=&#34;brick-concepts&#34;&gt;Brick Concepts&lt;/h2&gt;
 
-&lt;p&gt;Our research paper describes Brick design and development in depth (&lt;a href=&#34;http://brickschema.org/papers/Brick-BuildSys2016.pdf&#34;&gt;link to paper&lt;/a&gt;). Here we highlight the essential concepts of Brick.&lt;/p&gt;
+&lt;p&gt;Our research paper describes the Brick design and development in depth (&lt;a href=&#34;http://brickschema.org/papers/Brick-BuildSys2016.pdf&#34;&gt;link to paper&lt;/a&gt;). Here we highlight the essential concepts of Brick.&lt;/p&gt;
 
 &lt;h3 id=&#34;tagset&#34;&gt;Tagset&lt;/h3&gt;
 
 &lt;p&gt;Every entity in the buildings is represented by a Tagset, which is decomposed to multiple Tags.
-We model Point, Equipment, Location, and MeasurementProperty as entities in buildings. These are organized into a hierarchy.&lt;/p&gt;
+We model Point, Equipment, Location, and MeasurementProperty as entities in buildings. Each of these are organized into a hierarchy.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/BuildSysUniformMetadata/BrickSchemaSite/master/images/class_hierarchy.png&#34; alt=&#34;Brick Class Hierarchy&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As an example, &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a Tagset that consists of Tags, &lt;em&gt;Room&lt;/em&gt;, &lt;em&gt;Temperature&lt;/em&gt;, and &lt;em&gt;Sensor&lt;/em&gt;. &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a subclass of &lt;em&gt;Temperature Sensor&lt;/em&gt;, which itself is a subclass of &lt;em&gt;Sensor&lt;/em&gt;. With such a hierarchy, one can find a collection of temperature sensors easily using SPARQL or tag search.
-One can also add new Tagsets with Tags if it is not defined in our schema. We encourage you to share your custom Tagsets with us to make &lt;code&gt;Brick&lt;/code&gt; more comprehensive (&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/issues&#34;&gt;Issues&lt;/a&gt;).)&lt;/p&gt;
+One can also add new Tagsets with Tags if it is not defined in our schema. We encourage you to share your custom Tagsets with us to make &lt;code&gt;Brick&lt;/code&gt; more comprehensive (&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/issues&#34;&gt;Issues&lt;/a&gt;).&lt;/p&gt;
 
 &lt;h3 id=&#34;tags&#34;&gt;Tags&lt;/h3&gt;
 

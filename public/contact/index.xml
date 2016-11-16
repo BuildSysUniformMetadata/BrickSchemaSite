@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contacts on Brick Schema</title>
-    <link>http://brickschema.org/contact/index.xml</link>
+    <link>http://brickschema.org/contact/</link>
     <description>Recent content in Contacts on Brick Schema</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
