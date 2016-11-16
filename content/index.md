@@ -30,21 +30,10 @@ See [Getting Brick](/source) for more information.
 
 Our [paper](/papers/Brick-BuildSys2016.pdf) in [BuildSys 2016](http://buildsys.acm.org/2016/) provides additional detail
 
-## Brick Downloads
+## Community
 
-`Brick` consists of several TTL ("Turtle") files:
-
-* [`Brick.ttl`](/ttl/Brick.ttl): `Brick` classes and tagsets
-* [`BrickFrame.ttl`](/ttl/BrickFrame.ttl): `Brick` relationships
-* [`BrickTag.ttl`](/ttl/BrickTag.ttl): `Brick` tags
-
-Example buildings represented in `Brick`:
-
-* [Gates Hillman Center (Carnegie Mellon University)](/ttl/ghc_brick.ttl)
-* [Rice Hall (University of Virginia)](/ttl/rice_brick.ttl)
-* [Engineering Building Unit 3B (UC San Diego)](/ttl/ebu3b_brick.ttl)
-* [Green Tech House (Vejle, Denmark)](/ttl/gtc_brick.ttl)
-* [Soda Hall (UC Berkeley)](/ttl/soda_brick.ttl)
+* [User Forum](https://groups.google.com/d/forum/brickschema)
+* [Github Issues](https://github.com/BuildSysUniformMetadata/GroundTruth/issues)  
 
 ## Acknowledgements
 
@@ -76,6 +65,3 @@ Brick is supported by:
 - Intel Corporation
 
 
-## Ask
-
-* [User Forum](https://groups.google.com/d/forum/brickschema)
