@@ -13,6 +13,11 @@ weight: 1
 * [`BrickFrame.ttl`](/ttl/BrickFrame.ttl): `Brick` relationships
 * [`BrickTag.ttl`](/ttl/BrickTag.ttl): `Brick` tags
 
+##Brick Papers and Presentations
+
+* [`BuildSys 2016 Paper`](/papers/Brick_BuildSys2016.pdf)
+* [`BuildSys 2016 Presentation`](/papers/Brick_BuildSys_Presentation.pdf)
+* [`BuildSys 2016 Demo Abstract`](/papers/Brick_BuildSys2016_Demo.pdf)
 
 ## Brick Building Examples
 Example buildings represented in `Brick`:

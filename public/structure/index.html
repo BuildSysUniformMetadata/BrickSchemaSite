@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
 	<meta name="description" content="A metadata schema for buildings">
-	<meta name="generator" content="Hugo 0.18-DEV" />
+	<meta name="generator" content="Hugo 0.17" />
 	
 	<title>Documentation &mdash; Brick Schema</title>
 	
@@ -27,13 +27,7 @@
 	
 	
 
-<p><code>Brick</code> adheres to the RDF data model (<a href="https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/">Resource Description Framework</a>), which
-represents knowledge as a graph expressed as triples: <code>subject, predicate, object</code></p>
-
-<p>Applications and services can query the RDF representation of a building using
-SPARQL (<a href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL Protocol and RDF Query Language</a>).</p>
-
-<p>See <a href="/source">downloads</a> to get the source files of Brick.</p>
+<p>Brick is a uniform schema for representing metadata in buildings. Our schema defines a concrete ontology for sensors, subsystems and relationships among them, which enables portable applications. We demonstrate the completeness and effectiveness of Brick by using it to represent the entire vendor-specific sensor metadata of diverse buildings across different campuses, each comprising thousands of data points, and running complex unmodified applications on these buildings.</p>
 
 <h2 id="brick-concepts">Brick Concepts</h2>
 
@@ -113,6 +107,13 @@ This moderates tag-based representation mechanisms to have more coverage.</p>
 <p><a href="http://viewer.brickschema.org/">http://viewer.brickschema.org/</a> has a simple <code>.ttl</code> file viewer that allows you to see the structure of Brick building files.
 <a href="http://viewer.brickschema.org/static/soda.pdf">Here</a> is an example output for Soda Hall at UC Berkeley.</p>
 
+<p>##Data Format and Query Language
+<code>Brick</code> adheres to the RDF data model (<a href="https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/">Resource Description Framework</a>), which
+represents knowledge as a graph expressed as triples: <code>subject, predicate, object</code></p>
+
+<p>Applications and services can query the RDF representation of a building using
+SPARQL (<a href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL Protocol and RDF Query Language</a>).</p>
+
 
 
 						
@@ -185,7 +186,7 @@ This moderates tag-based representation mechanisms to have more coverage.</p>
 			<div class="footer">
 	&copy; 2016 
 	|
-	Powered by <a href="http://gohugo.io/">Hugo 0.18-DEV</a>
+	Powered by <a href="http://gohugo.io/">Hugo 0.17</a>
 	&amp; <a href="https://github.com/digitalcraftsman/hugo-alabaster-theme">Alabaster</a>
 	
 </div>

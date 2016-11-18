@@ -5,14 +5,7 @@ title: Documentation
 weight: 3
 ---
 
-`Brick` adheres to the RDF data model ([Resource Description Framework](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/)), which
-represents knowledge as a graph expressed as triples: `subject, predicate, object`
-
-Applications and services can query the RDF representation of a building using
-SPARQL ([SPARQL Protocol and RDF Query Language](https://www.w3.org/TR/rdf-sparql-query/)).
-
-See [downloads](/source) to get the source files of Brick.
-
+Brick is a uniform schema for representing metadata in buildings. Our schema defines a concrete ontology for sensors, subsystems and relationships among them, which enables portable applications. We demonstrate the completeness and effectiveness of Brick by using it to represent the entire vendor-specific sensor metadata of diverse buildings across different campuses, each comprising thousands of data points, and running complex unmodified applications on these buildings.
 
 ## Brick Concepts
 Our research paper describes the Brick design and development in depth ([link to paper](/papers/Brick-BuildSys2016.pdf)). Here we highlight the essential concepts of Brick.
@@ -46,8 +39,17 @@ Relationships represent how Brick entities connect with each other.
 |    hasPoint   | A has a point B that functions for A. | Equipment | Point  |
 |     feeds     |      Something flows from A to B.     |           |        |
 
-
 ## Viewing Brick Files
 
 [http://viewer.brickschema.org/](http://viewer.brickschema.org/) has a simple `.ttl` file viewer that allows you to see the structure of Brick building files.
 [Here](http://viewer.brickschema.org/static/soda.pdf) is an example output for Soda Hall at UC Berkeley.
+
+
+##Data Format and Query Language
+`Brick` adheres to the RDF data model ([Resource Description Framework](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/)), which
+represents knowledge as a graph expressed as triples: `subject, predicate, object`
+
+Applications and services can query the RDF representation of a building using
+SPARQL ([SPARQL Protocol and RDF Query Language](https://www.w3.org/TR/rdf-sparql-query/)).
+
+
