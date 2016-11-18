@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Downloads on Brick Schema</title>
+    <title>Download-rsses on Brick Schema</title>
     <link>http://brickschema.org/download/index.xml</link>
-    <description>Recent content in Downloads on Brick Schema</description>
+    <description>Recent content in Download-rsses on Brick Schema</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Sep 2016 15:07:57 -0700</lastBuildDate>
@@ -25,6 +25,14 @@
 &lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/Brick.ttl&#34;&gt;&lt;code&gt;Brick.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; classes and tagsets&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/BrickFrame.ttl&#34;&gt;&lt;code&gt;BrickFrame.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; relationships&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/BrickTag.ttl&#34;&gt;&lt;code&gt;BrickTag.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; tags&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##Brick Papers and Presentations&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/papers/Brick_BuildSys2016.pdf&#34;&gt;&lt;code&gt;BuildSys 2016 Paper&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/papers/Brick_BuildSys_Presentation.pdf&#34;&gt;&lt;code&gt;BuildSys 2016 Presentation&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://brickschema.org/papers/Brick_BuildSys2016_Demo.pdf&#34;&gt;&lt;code&gt;BuildSys 2016 Demo Abstract&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;brick-building-examples&#34;&gt;Brick Building Examples&lt;/h2&gt;
