@@ -2,7 +2,7 @@
 date: 2016-09-08T15:15:41-07:00
 menu: main
 title: Contact
-weight: 4
+weight: 5
 ---
 
 * [Developer Forum](https://groups.google.com/d/forum/brickschema)  
