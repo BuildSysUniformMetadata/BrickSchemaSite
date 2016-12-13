@@ -6,6 +6,6 @@ weight: 4
 ---
 
 * [Developer Forum](https://groups.google.com/d/forum/brickschema)  
-we will actively respond to users' any concerns or questions.
+We will actively respond to any concerns or questions.
 * [Github Issues](https://github.com/BuildSysUniformMetadata/GroundTruth/issues)  
 Any technical features can be discussed. We welcome any proposals including new Tagsets and feature.

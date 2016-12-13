@@ -32,7 +32,7 @@ Our [paper](/papers/Brick-BuildSys2016.pdf) in [BuildSys 2016](http://buildsys.a
 
 ## Community
 
-* [User Forum](https://groups.google.com/d/forum/brickschema)
+* [Developer Forum](https://groups.google.com/d/forum/brickschema)
 * [Github Issues](https://github.com/BuildSysUniformMetadata/GroundTruth/issues)  
 
 ## Acknowledgements

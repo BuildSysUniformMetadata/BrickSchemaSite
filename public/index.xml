@@ -46,7 +46,7 @@ components:&lt;/p&gt;
 &lt;h2 id=&#34;community&#34;&gt;Community&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://groups.google.com/d/forum/brickschema&#34;&gt;User Forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/d/forum/brickschema&#34;&gt;Developer Forum&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/issues&#34;&gt;Github Issues&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -325,6 +325,19 @@ SPARQL (&lt;a href=&#34;https://www.w3.org/TR/rdf-sparql-query/&#34;&gt;SPARQL P
     </item>
     
     <item>
+      <title>Interact</title>
+      <link>http://brickschema.org/interact/</link>
+      <pubDate>Mon, 12 Dec 2016 18:30:41 -0700</pubDate>
+      
+      <guid>http://brickschema.org/interact/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://viewer.brickschema.org/&#34;&gt;Graph Visualization&lt;/a&gt;&lt;br /&gt;
+A visualization of metadata mapped to Brick schema from five example buildings&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>http://brickschema.org/contact/</link>
       <pubDate>Thu, 08 Sep 2016 15:15:41 -0700</pubDate>
@@ -332,7 +345,7 @@ SPARQL (&lt;a href=&#34;https://www.w3.org/TR/rdf-sparql-query/&#34;&gt;SPARQL P
       <guid>http://brickschema.org/contact/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://groups.google.com/d/forum/brickschema&#34;&gt;Developer Forum&lt;/a&gt;&lt;br /&gt;
-we will actively respond to users&amp;rsquo; any concerns or questions.&lt;/li&gt;
+We will actively respond to any concerns or questions.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/issues&#34;&gt;Github Issues&lt;/a&gt;&lt;br /&gt;
 Any technical features can be discussed. We welcome any proposals including new Tagsets and feature.&lt;/li&gt;
 &lt;/ul&gt;
