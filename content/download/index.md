@@ -15,7 +15,7 @@ weight: 1
 
 ## Brick Papers and Presentations
 
-* [`BuildSys 2016 Paper`](/papers/Brick_BuildSys2016.pdf)
+* [`BuildSys 2016 Paper`](/papers/Brick-BuildSys2016.pdf)
 * [`BuildSys 2016 Presentation`](/papers/Brick_BuildSys_Presentation.pdf)
 * [`BuildSys 2016 Demo Abstract`](/papers/Brick_BuildSys2016_Demo.pdf)
 * [`BuildSys 2016 Poster`](/papers/Brick_BuildSys2016_Poster.pdf)
