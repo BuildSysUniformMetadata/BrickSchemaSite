@@ -1,4 +1,4 @@
-baseurl = "http://brickschema.org/"
+baseurl = "https://brickschema.org/"
 languageCode = "en-us"
 metadataformat = "yaml"
 title = "Brick Schema"

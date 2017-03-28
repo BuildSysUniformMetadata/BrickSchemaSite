@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Structure-rsses on Brick Schema</title>
-    <link>http://brickschema.org/structure/index.xml</link>
+    <link>https://brickschema.org/structure/index.xml</link>
     <description>Recent content in Structure-rsses on Brick Schema</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Sep 2016 15:15:41 -0700</lastBuildDate>
-    <atom:link href="http://brickschema.org/structure/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://brickschema.org/structure/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Documentation</title>
-      <link>http://brickschema.org/structure/</link>
+      <link>https://brickschema.org/structure/</link>
       <pubDate>Thu, 08 Sep 2016 15:15:41 -0700</pubDate>
       
-      <guid>http://brickschema.org/structure/</guid>
+      <guid>https://brickschema.org/structure/</guid>
       <description>
 
 &lt;p&gt;Brick is a uniform schema for representing metadata in buildings. Our schema defines a concrete ontology for sensors, subsystems and relationships among them, which enables portable applications. We demonstrate the completeness and effectiveness of Brick by using it to represent the entire vendor-specific sensor metadata of diverse buildings across different campuses, each comprising thousands of data points, and running complex unmodified applications on these buildings.&lt;/p&gt;
 
 &lt;h2 id=&#34;brick-concepts&#34;&gt;Brick Concepts&lt;/h2&gt;
 
-&lt;p&gt;Our research paper describes the Brick design and development in depth (&lt;a href=&#34;http://brickschema.org/papers/Brick-BuildSys2016.pdf&#34;&gt;link to paper&lt;/a&gt;). Here we highlight the essential concepts of Brick.&lt;/p&gt;
+&lt;p&gt;Our research paper describes the Brick design and development in depth (&lt;a href=&#34;https://brickschema.org/papers/Brick-BuildSys2016.pdf&#34;&gt;link to paper&lt;/a&gt;). Here we highlight the essential concepts of Brick.&lt;/p&gt;
 
 &lt;h3 id=&#34;tagset&#34;&gt;Tagset&lt;/h3&gt;
 
