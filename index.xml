@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Brick Schema</title>
-    <link>http://brickschema.org/index.xml</link>
+    <link>https://brickschema.org/index.xml</link>
     <description>Recent content on Brick Schema</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Apr 2016 15:21:22 +0200</lastBuildDate>
-    <atom:link href="http://brickschema.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://brickschema.org/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Brick</title>
-      <link>http://brickschema.org/</link>
+      <link>https://brickschema.org/</link>
       <pubDate>Sat, 23 Apr 2016 15:21:22 +0200</pubDate>
       
-      <guid>http://brickschema.org/</guid>
+      <guid>https://brickschema.org/</guid>
       <description>
 
 &lt;h2 id=&#34;a-uniform-metadata-schema-for-buildings&#34;&gt;A Uniform Metadata Schema for Buildings&lt;/h2&gt;
@@ -39,9 +39,9 @@ components:&lt;/p&gt;
 
 &lt;p&gt;Additionally, we have ported five real buildings to the &lt;code&gt;Brick&lt;/code&gt; schema as examples.&lt;/p&gt;
 
-&lt;p&gt;See &lt;a href=&#34;http://brickschema.org/source&#34;&gt;Getting Brick&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&#34;https://brickschema.org/source&#34;&gt;Getting Brick&lt;/a&gt; for more information.&lt;/p&gt;
 
-&lt;p&gt;Our &lt;a href=&#34;http://brickschema.org/papers/Brick-BuildSys2016.pdf&#34;&gt;paper&lt;/a&gt; in &lt;a href=&#34;http://buildsys.acm.org/2016/&#34;&gt;BuildSys 2016&lt;/a&gt; provides additional details.&lt;/p&gt;
+&lt;p&gt;Our &lt;a href=&#34;https://brickschema.org/papers/Brick-BuildSys2016.pdf&#34;&gt;paper&lt;/a&gt; in &lt;a href=&#34;http://buildsys.acm.org/2016/&#34;&gt;BuildSys 2016&lt;/a&gt; provides additional details.&lt;/p&gt;
 
 &lt;h2 id=&#34;community&#34;&gt;Community&lt;/h2&gt;
 
@@ -93,10 +93,10 @@ components:&lt;/p&gt;
     
     <item>
       <title>Downloads</title>
-      <link>http://brickschema.org/download/</link>
+      <link>https://brickschema.org/download/</link>
       <pubDate>Thu, 08 Sep 2016 15:07:57 -0700</pubDate>
       
-      <guid>http://brickschema.org/download/</guid>
+      <guid>https://brickschema.org/download/</guid>
       <description>
 
 &lt;h2 id=&#34;brick-downloads&#34;&gt;Brick Downloads&lt;/h2&gt;
@@ -104,18 +104,18 @@ components:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Brick&lt;/code&gt; consists of several TTL (&amp;ldquo;Turtle&amp;rdquo;) files:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/Brick.ttl&#34;&gt;&lt;code&gt;Brick.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; classes and tagsets&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/BrickFrame.ttl&#34;&gt;&lt;code&gt;BrickFrame.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; relationships&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/BrickTag.ttl&#34;&gt;&lt;code&gt;BrickTag.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; tags&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://brickschema.org/ttl/Brick.ttl&#34;&gt;&lt;code&gt;Brick.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; classes and tagsets&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://brickschema.org/ttl/BrickFrame.ttl&#34;&gt;&lt;code&gt;BrickFrame.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; relationships&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://brickschema.org/ttl/BrickTag.ttl&#34;&gt;&lt;code&gt;BrickTag.ttl&lt;/code&gt;&lt;/a&gt;: &lt;code&gt;Brick&lt;/code&gt; tags&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;brick-papers-and-presentations&#34;&gt;Brick Papers and Presentations&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://brickschema.org/papers/Brick-BuildSys2016.pdf&#34;&gt;&lt;code&gt;BuildSys 2016 Paper&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://brickschema.org/papers/Brick_BuildSys_Presentation.pdf&#34;&gt;&lt;code&gt;BuildSys 2016 Presentation&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://brickschema.org/papers/Brick_BuildSys2016_Demo.pdf&#34;&gt;&lt;code&gt;BuildSys 2016 Demo Abstract&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://brickschema.org/papers/Brick_BuildSys2016_Poster.pdf&#34;&gt;&lt;code&gt;BuildSys 2016 Poster&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://brickschema.org/papers/Brick-BuildSys2016.pdf&#34;&gt;&lt;code&gt;BuildSys 2016 Paper&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://brickschema.org/papers/Brick_BuildSys_Presentation.pdf&#34;&gt;&lt;code&gt;BuildSys 2016 Presentation&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://brickschema.org/papers/Brick_BuildSys2016_Demo.pdf&#34;&gt;&lt;code&gt;BuildSys 2016 Demo Abstract&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://brickschema.org/papers/Brick_BuildSys2016_Poster.pdf&#34;&gt;&lt;code&gt;BuildSys 2016 Poster&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;brick-building-examples&#34;&gt;Brick Building Examples&lt;/h2&gt;
@@ -123,7 +123,7 @@ components:&lt;/p&gt;
 &lt;p&gt;Example buildings represented in &lt;code&gt;Brick&lt;/code&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/ghc_brick.ttl&#34;&gt;Gates Hillman Center&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://brickschema.org/ttl/ghc_brick.ttl&#34;&gt;Gates Hillman Center&lt;/a&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Location: Carnegie Mellon University, Pittsburgh, PA, USA&lt;/li&gt;
@@ -134,7 +134,7 @@ components:&lt;/p&gt;
 &lt;li&gt;Tagsets mapped: 99%&lt;/li&gt;
 &lt;li&gt;Number of Relationships: 35,693&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/rice_brick.ttl&#34;&gt;Rice Hall&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://brickschema.org/ttl/rice_brick.ttl&#34;&gt;Rice Hall&lt;/a&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Location: University of Virginia, Charlottesville, VA, USA&lt;/li&gt;
@@ -144,7 +144,7 @@ components:&lt;/p&gt;
 &lt;li&gt;Tagsets mapped: 98.5%&lt;/li&gt;
 &lt;li&gt;Number of Relationships: 2,158&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/ebu3b_brick.ttl&#34;&gt;Engineering Building Unit 3B&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://brickschema.org/ttl/ebu3b_brick.ttl&#34;&gt;Engineering Building Unit 3B&lt;/a&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Location: UC San Diego, San Diego, CA, USA&lt;/li&gt;
@@ -155,7 +155,7 @@ components:&lt;/p&gt;
 &lt;li&gt;Tagsets mapped: 96%&lt;/li&gt;
 &lt;li&gt;Number of Relationships: 8,383&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/gtc_brick.ttl&#34;&gt;Green Tech House&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://brickschema.org/ttl/gtc_brick.ttl&#34;&gt;Green Tech House&lt;/a&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Location: Vejle, Denmark&lt;/li&gt;
@@ -166,7 +166,7 @@ components:&lt;/p&gt;
 &lt;li&gt;Tagsets mapped: 98.8%&lt;/li&gt;
 &lt;li&gt;Number of Relationships: 19,086&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://brickschema.org/ttl/soda_brick.ttl&#34;&gt;Soda Hall&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://brickschema.org/ttl/soda_brick.ttl&#34;&gt;Soda Hall&lt;/a&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Location: UC Berkeley, Berkeley, CA&lt;/li&gt;
@@ -183,10 +183,10 @@ components:&lt;/p&gt;
     
     <item>
       <title>Development</title>
-      <link>http://brickschema.org/source/</link>
+      <link>https://brickschema.org/source/</link>
       <pubDate>Thu, 08 Sep 2016 15:15:41 -0700</pubDate>
       
-      <guid>http://brickschema.org/source/</guid>
+      <guid>https://brickschema.org/source/</guid>
       <description>
 
 &lt;h3 id=&#34;github&#34;&gt;GitHub&lt;/h3&gt;
@@ -209,7 +209,7 @@ components:&lt;/p&gt;
 &lt;li&gt;Identifying necessary terminologies from existing building metadata and modern applications. The result is the &lt;a href=&#34;https://ibm.biz/UCB-IBM-Apps.&#34;&gt;Building application list&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Organizing the terminologies into Tags/Tagsets in a spreadsheet. The result is the &lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/blob/master/Brick/Schema%20Engineering.xlsx&#34;&gt;Schema Engineering Sheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Converting the spreadsheet into Turtle files. This was done using the &lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/blob/master/Brick/BuildBrick.ipynb&#34;&gt;Brick schema generator&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;The generated schema is available on the &lt;a href=&#34;http://brickschema.org/source&#34;&gt;Getting Brick&lt;/a&gt; page.&lt;/li&gt;
+&lt;li&gt;The generated schema is available on the &lt;a href=&#34;https://brickschema.org/source&#34;&gt;Getting Brick&lt;/a&gt; page.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;extending&#34;&gt;Extending&lt;/h3&gt;
@@ -229,17 +229,17 @@ In particular, we are pleased to listen to you for missing Tagsets and inaccurat
     
     <item>
       <title>Documentation</title>
-      <link>http://brickschema.org/structure/</link>
+      <link>https://brickschema.org/structure/</link>
       <pubDate>Thu, 08 Sep 2016 15:15:41 -0700</pubDate>
       
-      <guid>http://brickschema.org/structure/</guid>
+      <guid>https://brickschema.org/structure/</guid>
       <description>
 
 &lt;p&gt;Brick is a uniform schema for representing metadata in buildings. Our schema defines a concrete ontology for sensors, subsystems and relationships among them, which enables portable applications. We demonstrate the completeness and effectiveness of Brick by using it to represent the entire vendor-specific sensor metadata of diverse buildings across different campuses, each comprising thousands of data points, and running complex unmodified applications on these buildings.&lt;/p&gt;
 
 &lt;h2 id=&#34;brick-concepts&#34;&gt;Brick Concepts&lt;/h2&gt;
 
-&lt;p&gt;Our research paper describes the Brick design and development in depth (&lt;a href=&#34;http://brickschema.org/papers/Brick-BuildSys2016.pdf&#34;&gt;link to paper&lt;/a&gt;). Here we highlight the essential concepts of Brick.&lt;/p&gt;
+&lt;p&gt;Our research paper describes the Brick design and development in depth (&lt;a href=&#34;https://brickschema.org/papers/Brick-BuildSys2016.pdf&#34;&gt;link to paper&lt;/a&gt;). Here we highlight the essential concepts of Brick.&lt;/p&gt;
 
 &lt;h3 id=&#34;tagset&#34;&gt;Tagset&lt;/h3&gt;
 
@@ -326,10 +326,10 @@ SPARQL (&lt;a href=&#34;https://www.w3.org/TR/rdf-sparql-query/&#34;&gt;SPARQL P
     
     <item>
       <title>Interact</title>
-      <link>http://brickschema.org/interact/</link>
+      <link>https://brickschema.org/interact/</link>
       <pubDate>Mon, 12 Dec 2016 18:30:41 -0700</pubDate>
       
-      <guid>http://brickschema.org/interact/</guid>
+      <guid>https://brickschema.org/interact/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://viewer.brickschema.org/&#34;&gt;Graph Visualization&lt;/a&gt;&lt;br /&gt;
 A visualization of metadata mapped to Brick schema from five example buildings&lt;/li&gt;
@@ -339,10 +339,10 @@ A visualization of metadata mapped to Brick schema from five example buildings&l
     
     <item>
       <title>Contact</title>
-      <link>http://brickschema.org/contact/</link>
+      <link>https://brickschema.org/contact/</link>
       <pubDate>Thu, 08 Sep 2016 15:15:41 -0700</pubDate>
       
-      <guid>http://brickschema.org/contact/</guid>
+      <guid>https://brickschema.org/contact/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://groups.google.com/d/forum/brickschema&#34;&gt;Developer Forum&lt;/a&gt;&lt;br /&gt;
 We will actively respond to any concerns or questions.&lt;/li&gt;
