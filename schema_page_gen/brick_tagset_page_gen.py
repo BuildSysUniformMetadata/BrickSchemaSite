@@ -13,27 +13,27 @@ SKOS = Namespace('http://www.w3.org/2004/02/skos/core#')
 import arrow
 
 # Helper functions
-    
 def uri_list_to_md_str(uri_list):
     res = list()
     for uri in uri_list:
         name = uri.split('/')[-1].split('#')[-1]
         res.append('[{0}]({1})'.format(name, str(uri)))
-#        res.append('[{0}]({1})'.format(name, '../'+name))
     return ', '.join(res)
 
 def adder(x,y):
     return x + y
 
-
-
+# Each version will have dedicated pages.
 version_list = ['1.0.1']
 
+# Each version has a corresponding commit number in the Brick repo.
+# TODO: Currently pointing to Jason's private repo. This need to be changed
+#       once relevant PR is accepted in the official repo.
 commit_dict = {
         '1.0.1': '0b47efe87dad04c758b7571035dffba2012dea12',
         }
 
-
+# Markdown Template for each entity
 base_template = """
 <a name="{0}"></a>
 ## [{0}](#{0})
@@ -42,6 +42,7 @@ base_template = """
 ### Relationships:
 """
 
+# Markdown Header for each schema file. (BrickFrame and Brick for now)
 header_template = """
 ---
 date: {0}
@@ -53,7 +54,6 @@ menu: {2}
 
 for version in version_list:
     schema_content_dir = 'content/schema/{0}/'.format(version)
-
     try:
         os.mkdir(schema_content_dir)
     except:
@@ -68,6 +68,8 @@ for version in version_list:
     BRICK = Namespace('https://brickschema.org/schema/{0}/Brick#'.format(version))
     BF = Namespace('https://brickschema.org/schema/{0}/BrickFrame#'.format(version))
 
+
+    # Relationships that will be visualized at the website.
     relationship_dict ={
             'Brick': [RDFS.subClassOf, 
                         RDFS.label, 
@@ -76,15 +78,18 @@ for version in version_list:
                         SKOS.definition],
             'BrickFrame': [OWL.inverseOf, 
                         RDFS.range, 
-                        RDFS.domain],
+                        RDFS.domain,
+                        SKOS.definition],
             }
 
+    # Queries to get all entities
     root_query_dict = {
             'Brick': 'select ?tagset \
             where{?tagset rdfs:subClassOf+ <%s>}'%str(BF.TagSet),
             'BrickFrame': 'select ?prop where{?prop a owl:ObjectProperty.}'
             }
 
+    # Checkout to a specific commit per version
     os.chdir('schema_page_gen/Brick')
     subprocess.call(['git', 'reset', '--hard', commit_dict[version]])
     os.chdir('../..')
@@ -99,13 +104,11 @@ for version in version_list:
         header = header_template.format(str(arrow.get()), schema_type, version)
         doc_dict = dict()
         g = rdflib.Graph()
-        #g.parse('raw_src/Brick/dist/Brick.ttl', format='turtle')
-        #g.parse('raw_src/Brick/dist/BrickFrame.ttl', format='turtle')
         g.parse(schema_filename, format='turtle')
         root_query = root_query_dict[schema_type]
         display_relationships = relationship_dict[schema_type]
 
-        qres = g.query(root_query)
+        qres = g.query(root_query) # This finds all entities in our interest
 
         for row in qres:
             entity_uri = str(row[0])
@@ -128,6 +131,8 @@ for version in version_list:
                 definition = str(definition[0])
                 del rel_dict[SKOS.definition]
 
+            # Initiate property documentation from base template,
+            # and then add properties from rel_dict gradually.
             prop_doc = base_template.format(entity_name, definition)
             for p, o_list in rel_dict.items():
                 p_name = p.split('#')[-1]
