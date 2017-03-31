@@ -30322,312 +30322,53 @@
     </item>
     
     <item>
-      <title>AHU</title>
-      <link>https://brickschema.org/schema/1.0/brick/AHU/</link>
-      <pubDate>Sun, 26 Mar 2017 02:47:35 +0000</pubDate>
+      <title>Schema version 1.0</title>
+      <link>https://brickschema.org/schema/1.0/</link>
+      <pubDate>Thu, 08 Sep 2016 15:07:57 -0700</pubDate>
       
-      <guid>https://brickschema.org/schema/1.0/brick/AHU/</guid>
+      <guid>https://brickschema.org/schema/1.0/</guid>
       <description>
 
-&lt;h3 id=&#34;definition-todo&#34;&gt;Definition: TODO&lt;/h3&gt;
+&lt;h3 id=&#34;schema-files-turtle-format&#34;&gt;Schema Files (Turtle format)&lt;/h3&gt;
 
-&lt;h3 id=&#34;relationships&#34;&gt;Relationships&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#label&#34;&gt;label&lt;/a&gt;: Air Handler Unit&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesTag&#34;&gt;usesTag&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#AHU&#34;&gt;AHU&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#subClassOf&#34;&gt;subClassOf&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#HVAC&#34;&gt;HVAC&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/Brick/releases/download/1.0/BrickFrame.ttl&#34;&gt;Brick Meta Structure file&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/Brick/releases/download/1.0/Brick.ttl&#34;&gt;Brick Tagset File&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/Brick/releases/download/1.0/BrickTag.ttl&#34;&gt;Brick Tag File&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>AHU_Auto_Cooling_Temperature_Setpoint</title>
-      <link>https://brickschema.org/schema/1.0/brick/AHU_Auto_Cooling_Temperature_Setpoint/</link>
-      <pubDate>Sun, 26 Mar 2017 02:47:35 +0000</pubDate>
+      <title>Schema version 1.0.1</title>
+      <link>https://brickschema.org/schema/1.0.1/</link>
+      <pubDate>Thu, 08 Sep 2016 15:07:57 -0700</pubDate>
       
-      <guid>https://brickschema.org/schema/1.0/brick/AHU_Auto_Cooling_Temperature_Setpoint/</guid>
+      <guid>https://brickschema.org/schema/1.0.1/</guid>
       <description>
 
-&lt;h3 id=&#34;definition-todo&#34;&gt;Definition: TODO&lt;/h3&gt;
+&lt;h3 id=&#34;schema-documentation&#34;&gt;Schema Documentation&lt;/h3&gt;
 
-&lt;h3 id=&#34;relationships&#34;&gt;Relationships&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;./Brick&#34;&gt;Brick Tagsets&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;./brickframe&#34;&gt;Brick Properties&lt;/a&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesTag&#34;&gt;usesTag&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Setpoint&#34;&gt;Setpoint&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Temperature&#34;&gt;Temperature&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Auto&#34;&gt;Auto&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Cooling&#34;&gt;Cooling&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#AHU&#34;&gt;AHU&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;h3 id=&#34;schema-files-turtle-format&#34;&gt;Schema Files (Turtle format)&lt;/h3&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#label&#34;&gt;label&lt;/a&gt;: AHU Auto Cooling Temperature Setpoint&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#subClassOf&#34;&gt;subClassOf&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Auto_Cooling_Temperature_Setpoint&#34;&gt;Auto_Cooling_Temperature_Setpoint&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesMeasurement&#34;&gt;usesMeasurement&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Auto_Cooling_Temperature&#34;&gt;Auto_Cooling_Temperature&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/Brick/releases/download/1.0.1/BrickFrame.ttl&#34;&gt;Brick Meta Structure file&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/Brick/releases/download/1.0.1/Brick.ttl&#34;&gt;Brick Tagset File&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/Brick/releases/download/1.0.1/BrickTag.ttl&#34;&gt;Brick Tag File&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>AHU_Automatic_Mode_Command</title>
-      <link>https://brickschema.org/schema/1.0/brick/AHU_Automatic_Mode_Command/</link>
-      <pubDate>Sun, 26 Mar 2017 02:47:35 +0000</pubDate>
+      <title>Schema</title>
+      <link>https://brickschema.org/schema/</link>
+      <pubDate>Thu, 08 Sep 2016 15:07:57 -0700</pubDate>
       
-      <guid>https://brickschema.org/schema/1.0/brick/AHU_Automatic_Mode_Command/</guid>
+      <guid>https://brickschema.org/schema/</guid>
       <description>
 
-&lt;h3 id=&#34;definition-todo&#34;&gt;Definition: TODO&lt;/h3&gt;
+&lt;h3 id=&#34;version-1-0-1-0&#34;&gt;&lt;a href=&#34;1.0&#34;&gt;Version 1.0&lt;/a&gt;&lt;/h3&gt;
 
-&lt;h3 id=&#34;relationships&#34;&gt;Relationships&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesTag&#34;&gt;usesTag&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#AHU&#34;&gt;AHU&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Mode&#34;&gt;Mode&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Command&#34;&gt;Command&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Automatic&#34;&gt;Automatic&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesMeasurement&#34;&gt;usesMeasurement&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Automatic_Mode&#34;&gt;Automatic_Mode&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#label&#34;&gt;label&lt;/a&gt;: AHU Automatic Mode Command&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#subClassOf&#34;&gt;subClassOf&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Automatic_Mode_Command&#34;&gt;Automatic_Mode_Command&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AHU_Average_Exhaust_Air_Static_Pressure_Sensor</title>
-      <link>https://brickschema.org/schema/1.0/brick/AHU_Average_Exhaust_Air_Static_Pressure_Sensor/</link>
-      <pubDate>Sun, 26 Mar 2017 02:47:35 +0000</pubDate>
-      
-      <guid>https://brickschema.org/schema/1.0/brick/AHU_Average_Exhaust_Air_Static_Pressure_Sensor/</guid>
-      <description>
-
-&lt;h3 id=&#34;definition-todo&#34;&gt;Definition: TODO&lt;/h3&gt;
-
-&lt;h3 id=&#34;relationships&#34;&gt;Relationships&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#subClassOf&#34;&gt;subClassOf&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Average_Exhaust_Air_Static_Pressure_Sensor&#34;&gt;Average_Exhaust_Air_Static_Pressure_Sensor&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#AHU_Exhaust_Air_Static_Pressure_Sensor&#34;&gt;AHU_Exhaust_Air_Static_Pressure_Sensor&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesTag&#34;&gt;usesTag&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Air&#34;&gt;Air&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Sensor&#34;&gt;Sensor&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#AHU&#34;&gt;AHU&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Average&#34;&gt;Average&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Exhaust&#34;&gt;Exhaust&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Static&#34;&gt;Static&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Pressure&#34;&gt;Pressure&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#label&#34;&gt;label&lt;/a&gt;: AHU Average Exhaust Air Static Pressure Sensor&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesMeasurement&#34;&gt;usesMeasurement&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Average_Exhaust_Air_Static_Pressure&#34;&gt;Average_Exhaust_Air_Static_Pressure&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AHU_Average_Zone_Temperature_Sensor</title>
-      <link>https://brickschema.org/schema/1.0/brick/AHU_Average_Zone_Temperature_Sensor/</link>
-      <pubDate>Sun, 26 Mar 2017 02:47:35 +0000</pubDate>
-      
-      <guid>https://brickschema.org/schema/1.0/brick/AHU_Average_Zone_Temperature_Sensor/</guid>
-      <description>
-
-&lt;h3 id=&#34;definition-todo&#34;&gt;Definition: TODO&lt;/h3&gt;
-
-&lt;h3 id=&#34;relationships&#34;&gt;Relationships&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#subClassOf&#34;&gt;subClassOf&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#AHU_Zone_Temperature_Sensor&#34;&gt;AHU_Zone_Temperature_Sensor&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Average_Zone_Temperature_Sensor&#34;&gt;Average_Zone_Temperature_Sensor&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#label&#34;&gt;label&lt;/a&gt;: AHU Average Zone Temperature Sensor&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesTag&#34;&gt;usesTag&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Sensor&#34;&gt;Sensor&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Average&#34;&gt;Average&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#AHU&#34;&gt;AHU&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Zone&#34;&gt;Zone&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Temperature&#34;&gt;Temperature&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesMeasurement&#34;&gt;usesMeasurement&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Average_Temperature&#34;&gt;Average_Temperature&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AHU_Building_Exhaust_Fans_Stage_Command</title>
-      <link>https://brickschema.org/schema/1.0/brick/AHU_Building_Exhaust_Fans_Stage_Command/</link>
-      <pubDate>Sun, 26 Mar 2017 02:47:35 +0000</pubDate>
-      
-      <guid>https://brickschema.org/schema/1.0/brick/AHU_Building_Exhaust_Fans_Stage_Command/</guid>
-      <description>
-
-&lt;h3 id=&#34;definition-exhaust-fans-are-typically-arranged-so-that-they-can-be-fired-in-stages-as-per-requirement-this-command-controls-which-stage-is-switched-on&#34;&gt;Definition: Exhaust fans are typically arranged so that they can be fired in stages as per requirement. This command controls which stage is switched on&lt;/h3&gt;
-
-&lt;h3 id=&#34;relationships&#34;&gt;Relationships&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesTag&#34;&gt;usesTag&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Stage&#34;&gt;Stage&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#AHU&#34;&gt;AHU&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Exhaust&#34;&gt;Exhaust&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Building&#34;&gt;Building&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Fans&#34;&gt;Fans&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Command&#34;&gt;Command&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#subClassOf&#34;&gt;subClassOf&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Building_Exhaust_Fans_Stage_Command&#34;&gt;Building_Exhaust_Fans_Stage_Command&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#label&#34;&gt;label&lt;/a&gt;: AHU Building Exhaust Fans Stage Command&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesMeasurement&#34;&gt;usesMeasurement&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Exhaust_Fans_Stage&#34;&gt;Exhaust_Fans_Stage&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AHU_Building_Static_Pressure_Sensor</title>
-      <link>https://brickschema.org/schema/1.0/brick/AHU_Building_Static_Pressure_Sensor/</link>
-      <pubDate>Sun, 26 Mar 2017 02:47:35 +0000</pubDate>
-      
-      <guid>https://brickschema.org/schema/1.0/brick/AHU_Building_Static_Pressure_Sensor/</guid>
-      <description>
-
-&lt;h3 id=&#34;definition-todo&#34;&gt;Definition: TODO&lt;/h3&gt;
-
-&lt;h3 id=&#34;relationships&#34;&gt;Relationships&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#subClassOf&#34;&gt;subClassOf&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#AHU_Static_Pressure_Sensor&#34;&gt;AHU_Static_Pressure_Sensor&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Building_Static_Pressure_Sensor&#34;&gt;Building_Static_Pressure_Sensor&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesTag&#34;&gt;usesTag&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Sensor&#34;&gt;Sensor&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Pressure&#34;&gt;Pressure&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Static&#34;&gt;Static&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Building&#34;&gt;Building&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#AHU&#34;&gt;AHU&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesMeasurement&#34;&gt;usesMeasurement&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Static_Pressure&#34;&gt;Static_Pressure&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#label&#34;&gt;label&lt;/a&gt;: AHU Building Static Pressure Sensor&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AHU_Building_Static_Pressure_Setpoint</title>
-      <link>https://brickschema.org/schema/1.0/brick/AHU_Building_Static_Pressure_Setpoint/</link>
-      <pubDate>Sun, 26 Mar 2017 02:47:35 +0000</pubDate>
-      
-      <guid>https://brickschema.org/schema/1.0/brick/AHU_Building_Static_Pressure_Setpoint/</guid>
-      <description>
-
-&lt;h3 id=&#34;definition-todo&#34;&gt;Definition: TODO&lt;/h3&gt;
-
-&lt;h3 id=&#34;relationships&#34;&gt;Relationships&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#subClassOf&#34;&gt;subClassOf&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Building_Static_Pressure_Setpoint&#34;&gt;Building_Static_Pressure_Setpoint&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesTag&#34;&gt;usesTag&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Pressure&#34;&gt;Pressure&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#AHU&#34;&gt;AHU&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Building&#34;&gt;Building&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Setpoint&#34;&gt;Setpoint&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Static&#34;&gt;Static&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#label&#34;&gt;label&lt;/a&gt;: AHU Building Static Pressure Setpoint&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesMeasurement&#34;&gt;usesMeasurement&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Static_Pressure&#34;&gt;Static_Pressure&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AHU_Bypass_Air_Flow_Sensor</title>
-      <link>https://brickschema.org/schema/1.0/brick/AHU_Bypass_Air_Flow_Sensor/</link>
-      <pubDate>Sun, 26 Mar 2017 02:47:35 +0000</pubDate>
-      
-      <guid>https://brickschema.org/schema/1.0/brick/AHU_Bypass_Air_Flow_Sensor/</guid>
-      <description>
-
-&lt;h3 id=&#34;definition-todo&#34;&gt;Definition: TODO&lt;/h3&gt;
-
-&lt;h3 id=&#34;relationships&#34;&gt;Relationships&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesTag&#34;&gt;usesTag&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#AHU&#34;&gt;AHU&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Bypass&#34;&gt;Bypass&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Air&#34;&gt;Air&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Sensor&#34;&gt;Sensor&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Flow&#34;&gt;Flow&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#label&#34;&gt;label&lt;/a&gt;: AHU Bypass Air Flow Sensor&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#subClassOf&#34;&gt;subClassOf&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Bypass_Air_Flow_Sensor&#34;&gt;Bypass_Air_Flow_Sensor&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesMeasurement&#34;&gt;usesMeasurement&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Bypass_Air_Flow&#34;&gt;Bypass_Air_Flow&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AHU_Bypass_Damper_Position_Sensor</title>
-      <link>https://brickschema.org/schema/1.0/brick/AHU_Bypass_Damper_Position_Sensor/</link>
-      <pubDate>Sun, 26 Mar 2017 02:47:35 +0000</pubDate>
-      
-      <guid>https://brickschema.org/schema/1.0/brick/AHU_Bypass_Damper_Position_Sensor/</guid>
-      <description>
-
-&lt;h3 id=&#34;definition-todo&#34;&gt;Definition: TODO&lt;/h3&gt;
-
-&lt;h3 id=&#34;relationships&#34;&gt;Relationships&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesTag&#34;&gt;usesTag&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#AHU&#34;&gt;AHU&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Bypass&#34;&gt;Bypass&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Position&#34;&gt;Position&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Damper&#34;&gt;Damper&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Sensor&#34;&gt;Sensor&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#subClassOf&#34;&gt;subClassOf&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Bypass_Damper_Position_Sensor&#34;&gt;Bypass_Damper_Position_Sensor&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#label&#34;&gt;label&lt;/a&gt;: AHU Bypass Damper Position Sensor&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesMeasurement&#34;&gt;usesMeasurement&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#Bypass_Damper_Position&#34;&gt;Bypass_Damper_Position&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AHU_CO2_Differential_Sensor</title>
-      <link>https://brickschema.org/schema/1.0/brick/AHU_CO2_Differential_Sensor/</link>
-      <pubDate>Sun, 26 Mar 2017 02:47:35 +0000</pubDate>
-      
-      <guid>https://brickschema.org/schema/1.0/brick/AHU_CO2_Differential_Sensor/</guid>
-      <description>
-
-&lt;h3 id=&#34;definition-sensor-that-measures-the-difference-in-co2-level-between-any-two-points-in-the-system&#34;&gt;Definition: Sensor that measures the difference in CO2 level between any two points in the system.&lt;/h3&gt;
-
-&lt;h3 id=&#34;relationships&#34;&gt;Relationships&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#subClassOf&#34;&gt;subClassOf&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#CO2_Differential_Sensor&#34;&gt;CO2_Differential_Sensor&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#AHU_CO2_Sensor&#34;&gt;AHU_CO2_Sensor&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesTag&#34;&gt;usesTag&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Sensor&#34;&gt;Sensor&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#CO2&#34;&gt;CO2&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#AHU&#34;&gt;AHU&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Differential&#34;&gt;Differential&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#label&#34;&gt;label&lt;/a&gt;: AHU CO2 Differential Sensor&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesMeasurement&#34;&gt;usesMeasurement&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#CO2_Differential&#34;&gt;CO2_Differential&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AHU_CO2_High_Alarm</title>
-      <link>https://brickschema.org/schema/1.0/brick/AHU_CO2_High_Alarm/</link>
-      <pubDate>Sun, 26 Mar 2017 02:47:35 +0000</pubDate>
-      
-      <guid>https://brickschema.org/schema/1.0/brick/AHU_CO2_High_Alarm/</guid>
-      <description>
-
-&lt;h3 id=&#34;definition-todo&#34;&gt;Definition: TODO&lt;/h3&gt;
-
-&lt;h3 id=&#34;relationships&#34;&gt;Relationships&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesTag&#34;&gt;usesTag&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#CO2&#34;&gt;CO2&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#AHU&#34;&gt;AHU&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#High&#34;&gt;High&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Alarm&#34;&gt;Alarm&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesMeasurement&#34;&gt;usesMeasurement&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#CO2_High&#34;&gt;CO2_High&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#subClassOf&#34;&gt;subClassOf&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#CO2_High_Alarm&#34;&gt;CO2_High_Alarm&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#label&#34;&gt;label&lt;/a&gt;: AHU CO2 High Alarm&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AHU_CO2_Sensor</title>
-      <link>https://brickschema.org/schema/1.0/brick/AHU_CO2_Sensor/</link>
-      <pubDate>Sun, 26 Mar 2017 02:47:35 +0000</pubDate>
-      
-      <guid>https://brickschema.org/schema/1.0/brick/AHU_CO2_Sensor/</guid>
-      <description>
-
-&lt;h3 id=&#34;definition-sensor-that-measures-the-difference-in-co2-level-between-any-two-points-in-the-system&#34;&gt;Definition: Sensor that measures the difference in CO2 level between any two points in the system.&lt;/h3&gt;
-
-&lt;h3 id=&#34;relationships&#34;&gt;Relationships&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#label&#34;&gt;label&lt;/a&gt;: AHU CO2 Sensor&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesTag&#34;&gt;usesTag&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#AHU&#34;&gt;AHU&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#CO2&#34;&gt;CO2&lt;/a&gt;, &lt;a href=&#34;https://brickschema.org/schema/1.0/BrickTag#Sensor&#34;&gt;Sensor&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.w3.org/2000/01/rdf-schema#subClassOf&#34;&gt;subClassOf&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#CO2_Sensor&#34;&gt;CO2_Sensor&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://brickschema.org/schema/1.0/BrickFrame#usesMeasurement&#34;&gt;usesMeasurement&lt;/a&gt;: &lt;a href=&#34;https://brickschema.org/schema/1.0/Brick#CO2&#34;&gt;CO2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&#34;version-1-0-1-1-0-1&#34;&gt;&lt;a href=&#34;1.0.1&#34;&gt;Version 1.0.1&lt;/a&gt;&lt;/h3&gt;
 </description>
     </item>
     
