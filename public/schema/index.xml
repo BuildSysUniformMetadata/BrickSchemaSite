@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Schemas on Brick Schema</title>
+    <title>Schema-rsses on Brick Schema</title>
     <link>https://brickschema.org/schema/index.xml</link>
-    <description>Recent content in Schemas on Brick Schema</description>
+    <description>Recent content in Schema-rsses on Brick Schema</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 31 Mar 2017 06:32:09 +0000</lastBuildDate>
@@ -30348,7 +30348,7 @@
 &lt;h3 id=&#34;schema-documentation&#34;&gt;Schema Documentation&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;./Brick&#34;&gt;Brick Tagsets&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;./brickframe&#34;&gt;Brick Properties&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;./BrickFrame&#34;&gt;Brick Properties&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;schema-files-turtle-format&#34;&gt;Schema Files (Turtle format)&lt;/h3&gt;
 

@@ -6,7 +6,7 @@ menu: Schema
 
 ### Schema Documentation
 [Brick Tagsets](./Brick)  
-[Brick Properties](./BrickFrame)
+[Brick Properties](./brickframe)
 
 ### Schema Files (Turtle format)
 [Brick Meta Structure file](https://github.com/BuildSysUniformMetadata/Brick/releases/download/1.0.1/BrickFrame.ttl)  
