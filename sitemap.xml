@@ -33,16 +33,6 @@
   </url>
   
   <url>
-    <loc>https://brickschema.org/schema/1.0.1/brick/</loc>
-    <lastmod>2017-03-31T06:32:09+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brickschema.org/schema/1.0.1/brickframe/</loc>
-    <lastmod>2017-03-31T06:32:08+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://brickschema.org/schema/1.0/</loc>
     <lastmod>2016-09-08T15:07:57-07:00</lastmod>
   </url>
@@ -88,7 +78,7 @@
   
   <url>
     <loc>https://brickschema.org/schema/</loc>
-    <lastmod>2017-03-31T06:32:09+00:00</lastmod>
+    <lastmod>2016-09-08T15:07:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   
