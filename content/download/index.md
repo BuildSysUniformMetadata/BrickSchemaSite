@@ -7,11 +7,14 @@ weight: 1
 
 ## Brick Downloads
 
-`Brick` consists of several TTL ("Turtle") files:
+`Brick` consists of several TTL ("Turtle") files. Latest version (v1.0.2) available here:
 
 * [`Brick.ttl`](/ttl/Brick.ttl): `Brick` classes and tagsets
 * [`BrickFrame.ttl`](/ttl/BrickFrame.ttl): `Brick` relationships
-* [`BrickTag.ttl`](/ttl/BrickTag.ttl): `Brick` tags
+* [`BrickTag.ttl`](/ttl/BrickTag.ttl): `Brick` tags (internal)
+* [`BrickUse.ttl`](/ttl/BrickUse.ttl): `Brick` uses relationships (internal)
+
+Past releases are [available on GitHub](https://github.com/BuildSysUniformMetadata/Brick/releases)
 
 ## Brick Papers and Presentations
 

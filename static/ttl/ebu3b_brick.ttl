@@ -1,5 +1,5 @@
-@prefix brick: <http://buildsys.org/ontologies/Brick#> .
-@prefix brickframe: <http://buildsys.org/ontologies/BrickFrame#> .
+@prefix brick: <http://brickschema.org/schema/1.0.2/Brick#> .
+@prefix brickframe: <http://brickschema.org/schema/1.0.2/BrickFrame#> .
 @prefix ebu3b: <http://ucsd.edu/building/ontology/ebu3b#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
