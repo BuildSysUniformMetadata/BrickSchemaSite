@@ -1,9 +1,10 @@
 #!/bin/bash
+set -ex
 
 # Generate schema documentation
 pip install rdflib
 pip install arrow
-python schema_gen_page/brick_tagset_page_gen.py
+#python3 ./schema_page_gen/brick_tagset_page_gen.py
 
 # build site
 hugo

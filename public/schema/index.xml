@@ -6,37 +6,10 @@
     <description>Recent content in Schemas on Brick Schema</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Mar 2017 06:32:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Sep 2016 15:07:57 -0700</lastBuildDate>
     
 	<atom:link href="https://brickschema.org/schema/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Brick version 1.0.1</title>
-      <link>https://brickschema.org/schema/1.0.1/brick/</link>
-      <pubDate>Fri, 31 Mar 2017 06:32:09 +0000</pubDate>
-      
-      <guid>https://brickschema.org/schema/1.0.1/brick/</guid>
-      <description>AHU Definition: TODO Relationships:  label: Air Handler Unit usesTag: AHU subClassOf: HVAC  
-AHU_Auto_Cooling_Temperature_Setpoint Definition: TODO Relationships:  label: AHU Auto Cooling Temperature Setpoint usesTag: Setpoint, AHU, Temperature, Cooling, Auto subClassOf: Auto_Cooling_Temperature_Setpoint usesMeasurement: Auto_Cooling_Temperature  
-AHU_Automatic_Mode_Command Definition: TODO Relationships:  label: AHU Automatic Mode Command usesTag: Mode, Command, AHU, Automatic subClassOf: Automatic_Mode_Command usesMeasurement: Automatic_Mode  
-AHU_Average_Exhaust_Air_Static_Pressure_Sensor Definition: TODO Relationships:  label: AHU Average Exhaust Air Static Pressure Sensor usesTag: AHU, Exhaust, Sensor, Pressure, Static, Average, Air subClassOf: Average_Exhaust_Air_Static_Pressure_Sensor, AHU_Exhaust_Air_Static_Pressure_Sensor usesMeasurement: Average_Exhaust_Air_Static_Pressure</description>
-    </item>
-    
-    <item>
-      <title>BrickFrame version 1.0.1</title>
-      <link>https://brickschema.org/schema/1.0.1/brickframe/</link>
-      <pubDate>Fri, 31 Mar 2017 06:32:08 +0000</pubDate>
-      
-      <guid>https://brickschema.org/schema/1.0.1/brickframe/</guid>
-      <description>contains Definition: TODO Relationships:  inverseOf: isLocatedIn  
-controls Definition: TODO Relationships:  inverseOf: isControlledBy  
-feeds Definition: TODO Relationships:  inverseOf: isFedBy  
-hasInput Definition: TODO Relationships:  inverseOf: isInputOf range: Signal domain: FunctionBlock  
-hasMeasurement Definition: TODO Relationships:  inverseOf: isMeasuredBy  
-hasOutput Definition: TODO Relationships:  inverseOf: isOutputOf range: Signal domain: FunctionBlock  
-hasPart Definition: TODO Relationships:  inverseOf: isPartOf</description>
-    </item>
     
     <item>
       <title>Schema version 1.0</title>
