@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://brickschema.org/download/</loc>
@@ -32,12 +33,12 @@
   </url>
   
   <url>
-    <loc>https://brickschema.org/schema/1.0.1/Brick/</loc>
+    <loc>https://brickschema.org/schema/1.0.1/brick/</loc>
     <lastmod>2017-03-31T06:32:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://brickschema.org/schema/1.0.1/BrickFrame/</loc>
+    <loc>https://brickschema.org/schema/1.0.1/brickframe/</loc>
     <lastmod>2017-03-31T06:32:08+00:00</lastmod>
   </url>
   
@@ -63,6 +64,11 @@
   </url>
   
   <url>
+    <loc>https://brickschema.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://brickschema.org/contact/</loc>
     <lastmod>2016-09-08T15:15:41-07:00</lastmod>
     <priority>0</priority>
@@ -95,6 +101,11 @@
   <url>
     <loc>https://brickschema.org/structure/</loc>
     <lastmod>2016-09-08T15:15:41-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/tags/</loc>
     <priority>0</priority>
   </url>
   
