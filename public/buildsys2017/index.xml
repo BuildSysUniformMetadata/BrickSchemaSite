@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Buildsys2017s on Brick Schema</title>
+    <link>https://brickschema.org/buildsys2017/</link>
+    <description>Recent content in Buildsys2017s on Brick Schema</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Apr 2016 15:21:22 +0200</lastBuildDate>
+    
+	<atom:link href="https://brickschema.org/buildsys2017/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BuildSys 2017</title>
+      <link>https://brickschema.org/buildsys2017/</link>
+      <pubDate>Sat, 23 Apr 2016 15:21:22 +0200</pubDate>
+      
+      <guid>https://brickschema.org/buildsys2017/</guid>
+      <description>Tutorial A unified metadata schema has an important role in building operation and application interoperability. Brick is a unified metadata schema born from a BuildSys community’s effort on advancing technologies for the built environment. We propose a tutorial session for BuildSys attendants to learn about how to use Brick in their real systems and promote more involvement in Brick development. Interest in Brick from both academia and industry has steadily grown, and a tutorial would be a welcome opportunity to encourage collaboration and discussion.</description>
+    </item>
+    
+  </channel>
+</rss>

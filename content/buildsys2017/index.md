@@ -19,11 +19,13 @@ Brick has two main components: a class hierarchy describing the family of buildi
 We have planned a two hour tutorial with a focus on hands-on practice by participants. Below we highlight the major sections of the tutorial, their purpose and what we will cover in them.
 
 - Introduction to Brick [15 mins]: Outlining the benefits of a standard metadata such as Brick, and what Brick captures that other schemata do not. We want to clarify the role of Brick and give specific examples of the applications that Brick enables. This would also include examples of how Brick has been integrated with existing building systems. 
+
     In summary, we will cover: 
     - Basics of Brick schema (RDF, TagSets, relationships)
     - A model system architecture with an existing BMS.
 
 - Brick usage and querying [45 mins]: We introduce the RDF data model and standard SPARQL query language. We will demonstrate how Brick leverages these technologies to represent a real-world building. Using interactive queries, attendees will be able to explore the Brick model for the building. We will walk through a methodology for converting existing building metadata to Brick. Attendees will have the opportunity to implement this methodology on real building metadata including unstructured BMS tags and a simple Haystack model.
+
     In summary, we will cover:
     - The formal syntax of RDF
     - How to write an RDF of a simplified building
@@ -31,6 +33,7 @@ We have planned a two hour tutorial with a focus on hands-on practice by partici
     - Introduction to SPARQL with examples
 
 - Writing a real Brick application [45 mins]: We demonstrate the use of Brick in a basic analytics application using timeseries data from a real building. We will address points of how to store Brick instances, how a system exploits Brick instances, and how to query needed information from Brick instances for applications. We will progressively build up a portable building application that queries a Brick model in order to discover the building components  it needs to operate.
+
     In summary, we will cover:
     - Role of Brick between an existing system and applications
     - How to store a Brick instance and interact with it
@@ -38,6 +41,7 @@ We have planned a two hour tutorial with a focus on hands-on practice by partici
     - How to write queries and write applications on top of them
 
 - Feedback [15 mins]: We would like to communicate with various researchers and practitioners at BuildSys to get feedback on the features they want and possible usability improvements to Brick. Since Brick is open-source and follows a community development process where any contribution is open to public. We would like to promote public contributions to Brick so that it covers every aspect that the real world requires.
+
      In summary, we will cover:
      - How to contribute to Brick using GitHub and developer Google Group
      - How to add extensions to Brick with request for comments (RFC)
@@ -50,6 +54,7 @@ Expected number of participants: 20 - 30
 Our tutorial with hands-on practices would attract people who want to have their buildings with normalized metadata.
 
 Participants preparation:
+
 - Registration for guaranteed participation.
 - A laptop for hands-on tutorial.
 - Facilities:
@@ -58,6 +63,7 @@ Participants preparation:
 - Tables/chairs for all attendees with a clear view of the projector screen
 
 Organizing Team:
+
 - Jason Koh (University of California, San Diego)
 - Gabe Fierro (University of California, Berkeley)
 - Aslak Johansen (Southern Denmark University)
