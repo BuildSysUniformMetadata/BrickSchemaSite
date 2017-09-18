@@ -7,9 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Sep 2016 15:15:41 -0700</lastBuildDate>
-    
-	<atom:link href="https://brickschema.org/contact/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://brickschema.org/contact/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Contact</title>
@@ -17,9 +15,13 @@
       <pubDate>Thu, 08 Sep 2016 15:15:41 -0700</pubDate>
       
       <guid>https://brickschema.org/contact/</guid>
-      <description> Developer Forum
-We will actively respond to any concerns or questions. Github Issues
-Any technical features can be discussed. We welcome any proposals including new Tagsets and feature.  </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/d/forum/brickschema&#34;&gt;Developer Forum&lt;/a&gt;&lt;br /&gt;
+We will actively respond to any concerns or questions.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/issues&#34;&gt;Github Issues&lt;/a&gt;&lt;br /&gt;
+Any technical features can be discussed. We welcome any proposals including new Tagsets and feature.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
