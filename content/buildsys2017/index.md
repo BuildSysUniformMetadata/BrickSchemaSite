@@ -7,6 +7,8 @@ weight: 50
 
 ## Tutorial
 
+We're running a tutorial at [BuildSys 2017!](buildsys.acm.org/2017)
+
 A unified metadata schema has an important role in building operation and application interoperability. Brick is a unified metadata schema born from a BuildSys community’s effort on advancing technologies for the built environment. We propose a tutorial session for BuildSys attendants to learn about how to use Brick in their real systems and promote more involvement in Brick development. Interest in Brick from both academia and industry has steadily grown, and a tutorial would be a welcome opportunity to encourage collaboration and discussion.
 
 ### Why a new metadata schema?
