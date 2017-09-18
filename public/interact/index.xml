@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Dec 2016 18:30:41 -0700</lastBuildDate>
-    <atom:link href="https://brickschema.org/interact/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://brickschema.org/interact/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Interact</title>
@@ -15,11 +17,8 @@
       <pubDate>Mon, 12 Dec 2016 18:30:41 -0700</pubDate>
       
       <guid>https://brickschema.org/interact/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://viewer.brickschema.org/&#34;&gt;Graph Visualization&lt;/a&gt;&lt;br /&gt;
-A visualization of metadata mapped to Brick schema from five example buildings&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Graph Visualization
+A visualization of metadata mapped to Brick schema from five example buildings  </description>
     </item>
     
   </channel>
