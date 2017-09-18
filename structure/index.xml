@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Sep 2016 15:15:41 -0700</lastBuildDate>
-    <atom:link href="https://brickschema.org/structure/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://brickschema.org/structure/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Documentation</title>
@@ -15,95 +17,8 @@
       <pubDate>Thu, 08 Sep 2016 15:15:41 -0700</pubDate>
       
       <guid>https://brickschema.org/structure/</guid>
-      <description>
-
-&lt;p&gt;Brick is a uniform schema for representing metadata in buildings. Our schema defines a concrete ontology for sensors, subsystems and relationships among them, which enables portable applications. We demonstrate the completeness and effectiveness of Brick by using it to represent the entire vendor-specific sensor metadata of diverse buildings across different campuses, each comprising thousands of data points, and running complex unmodified applications on these buildings.&lt;/p&gt;
-
-&lt;h2 id=&#34;brick-concepts:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Brick Concepts&lt;/h2&gt;
-
-&lt;p&gt;Our research paper describes the Brick design and development in depth (&lt;a href=&#34;https://brickschema.org/papers/Brick-BuildSys2016.pdf&#34;&gt;link to paper&lt;/a&gt;). Here we highlight the essential concepts of Brick.&lt;/p&gt;
-
-&lt;h3 id=&#34;tagset:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Tagset&lt;/h3&gt;
-
-&lt;p&gt;Every entity in the buildings is represented by a Tagset, which is decomposed to multiple Tags.
-We model Point, Equipment, Location, and MeasurementProperty as entities in buildings. Each of these are organized into a hierarchy.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/BuildSysUniformMetadata/BrickSchemaSite/master/images/class_hierarchy.png&#34; alt=&#34;Brick Class Hierarchy&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As an example, &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a Tagset that consists of Tags, &lt;em&gt;Room&lt;/em&gt;, &lt;em&gt;Temperature&lt;/em&gt;, and &lt;em&gt;Sensor&lt;/em&gt;. &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is a subclass of &lt;em&gt;Temperature Sensor&lt;/em&gt;, which itself is a subclass of &lt;em&gt;Sensor&lt;/em&gt;. With such a hierarchy, one can find a collection of temperature sensors easily using SPARQL or tag search.
-One can also add new Tagsets with Tags if it is not defined in our schema. We encourage you to share your custom Tagsets with us to make &lt;code&gt;Brick&lt;/code&gt; more comprehensive (&lt;a href=&#34;https://github.com/BuildSysUniformMetadata/GroundTruth/issues&#34;&gt;Issues&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h3 id=&#34;tags:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Tags&lt;/h3&gt;
-
-&lt;p&gt;Tags represent unit concept in buildings and are decomposed from Tagsets. Tags are used to infer Tagsets&amp;rsquo; meaning and search without using a query language.
-For example, one can easily know &lt;em&gt;Room Temperature Sensor&lt;/em&gt; is related to &lt;em&gt;Room&lt;/em&gt;, &lt;em&gt;Temperature&lt;/em&gt;, and &lt;em&gt;Sensor&lt;/em&gt; programatically.
-This moderates tag-based representation mechanisms to have more coverage.&lt;/p&gt;
-
-&lt;h3 id=&#34;relationships:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Relationships&lt;/h3&gt;
-
-&lt;p&gt;Relationships represent how Brick entities connect with each other.
-&lt;code&gt;Brick&lt;/code&gt; has the following relationships. We constrain the subjects and the objects that relationships can have.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;Relationship&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Definition&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Subject&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Object&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;hasLocation&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;A is located in B.&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Location&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;controls&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;A determines the internal state of B.&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;isPartOf&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;A is a component/part of B.&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;hasPoint&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;A has a point B that functions for A.&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Equipment&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Point&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;feeds&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Something flows from A to B.&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;viewing-brick-files:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Viewing Brick Files&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://viewer.brickschema.org/&#34;&gt;http://viewer.brickschema.org/&lt;/a&gt; has a simple &lt;code&gt;.ttl&lt;/code&gt; file viewer that allows you to see the structure of Brick building files.
-&lt;a href=&#34;http://viewer.brickschema.org/static/soda.pdf&#34;&gt;Here&lt;/a&gt; is an example output for Soda Hall at UC Berkeley.&lt;/p&gt;
-
-&lt;p&gt;##Data Format and Query Language
-&lt;code&gt;Brick&lt;/code&gt; adheres to the RDF data model (&lt;a href=&#34;https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/&#34;&gt;Resource Description Framework&lt;/a&gt;), which
-represents knowledge as a graph expressed as triples: &lt;code&gt;subject, predicate, object&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Applications and services can query the RDF representation of a building using
-SPARQL (&lt;a href=&#34;https://www.w3.org/TR/rdf-sparql-query/&#34;&gt;SPARQL Protocol and RDF Query Language&lt;/a&gt;).&lt;/p&gt;
-</description>
+      <description>Brick is a uniform schema for representing metadata in buildings. Our schema defines a concrete ontology for sensors, subsystems and relationships among them, which enables portable applications. We demonstrate the completeness and effectiveness of Brick by using it to represent the entire vendor-specific sensor metadata of diverse buildings across different campuses, each comprising thousands of data points, and running complex unmodified applications on these buildings.
+Brick Concepts Our research paper describes the Brick design and development in depth (link to paper).</description>
     </item>
     
   </channel>
