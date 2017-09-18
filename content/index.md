@@ -35,6 +35,12 @@ Our [paper](/papers/Brick-BuildSys2016.pdf) in [BuildSys 2016](http://buildsys.a
 * [Developer Forum](https://groups.google.com/d/forum/brickschema)
 * [Github Issues](https://github.com/BuildSysUniformMetadata/GroundTruth/issues)  
 
+The lead maintainers for Brick are:
+
+* [Gabe Fierro](https://people.eecs.berkeley.edu/~gtfierro/)
+* [Jason Koh](https://jbkoh.github.io/)
+
+
 ## Acknowledgements
 
 `Brick` is a joint effort by

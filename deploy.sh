@@ -2,8 +2,8 @@
 set -ex
 
 # Generate schema documentation
-pip install rdflib
-pip install arrow
+#pip install rdflib
+#pip install arrow
 #python3 ./schema_page_gen/brick_tagset_page_gen.py
 
 # build site
