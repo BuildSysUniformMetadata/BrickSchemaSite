@@ -72,7 +72,17 @@ A visualization of metadata mapped to Brick schema from five example buildings  
       <guid>https://brickschema.org/contact/</guid>
       <description> Developer Forum
 We will actively respond to any concerns or questions. Github Issues
-Any technical features can be discussed. We welcome any proposals including new Tagsets and feature.  </description>
+Any technical features can be discussed. We welcome any proposals including new Tagsets and feature.  The lead maintainers for Brick are:
+ Gabe Fierro Jason Koh  </description>
+    </item>
+    
+    <item>
+      <title>BuildSys 2017</title>
+      <link>https://brickschema.org/buildsys2017/</link>
+      <pubDate>Sat, 23 Apr 2016 15:21:22 +0200</pubDate>
+      
+      <guid>https://brickschema.org/buildsys2017/</guid>
+      <description>Tutorial A unified metadata schema has an important role in building operation and application interoperability. Brick is a unified metadata schema born from a BuildSys community’s effort on advancing technologies for the built environment. We propose a tutorial session for BuildSys attendants to learn about how to use Brick in their real systems and promote more involvement in Brick development. Interest in Brick from both academia and industry has steadily grown, and a tutorial would be a welcome opportunity to encourage collaboration and discussion.</description>
     </item>
     
     <item>
