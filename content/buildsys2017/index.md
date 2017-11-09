@@ -5,6 +5,8 @@ menu: main
 weight: 50
 ---
 
+**You can run the tutorial yourself using the [IPython Notebook!](https://github.com/BuildSysUniformMetadata/brick-tutorial-buildsys2017)**
+
 ## Tutorial
 
 We're running a tutorial at [BuildSys 2017!](buildsys.acm.org/2017)
