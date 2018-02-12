@@ -69,5 +69,5 @@ Brick is supported by:
 - EU H2020 grant
 - TOPAs (676760)
 - Intel Corporation
-- Johnson Controls Corporation
+- Johnson Controls International
 
