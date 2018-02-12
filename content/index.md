@@ -55,7 +55,7 @@ The lead maintainers for Brick are:
 
 Brick is supported by:
 
-* National Science Foundation grants:
+- National Science Foundation grants:
     * CPS-1239552
     * NSF-1636879
     * IIS-1636916
@@ -69,5 +69,5 @@ Brick is supported by:
 - EU H2020 grant
 - TOPAs (676760)
 - Intel Corporation
-
+- Johnson Controls Corporation
 
