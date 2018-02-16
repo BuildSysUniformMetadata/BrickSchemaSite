@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head lang="en-us">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+	<meta name="description" content="A metadata schema for buildings">
+	<meta name="generator" content="Hugo 0.31.1" />
+	
+	<title>Documentation &mdash; Brick Schema</title>
+	
+	<link rel="stylesheet" href="https://brickschema.org/css/alabaster.css" type="text/css" />
+	<link rel="stylesheet" href="https://brickschema.org/css/highlight.css" type="text/css" />
+
+	
+
+	<link rel="shortcut icon" href="https://brickschema.org/favicon.ico" type="image/x-icon"/>
+</head>
+
+	<body role="document">
+		<div class="document">
+			<div class="documentwrapper">
+				<div class="bodywrapper">
+					<div class="body" role="main">
+						
+	<h1>Documentation</h1>
+	
+	
+
+<p>Brick is a uniform schema for representing metadata in buildings. Our schema defines a concrete ontology for sensors, subsystems and relationships among them, which enables portable applications. We demonstrate the completeness and effectiveness of Brick by using it to represent the entire vendor-specific sensor metadata of diverse buildings across different campuses, each comprising thousands of data points, and running complex unmodified applications on these buildings.</p>
+
+<h2 id="brick-concepts">Brick Concepts</h2>
+
+<p>Our research paper describes the Brick design and development in depth (<a href="/papers/Brick-BuildSys2016.pdf">link to paper</a>). Here we highlight the essential concepts of Brick.</p>
+
+<h3 id="tagset">Tagset</h3>
+
+<p>Every entity in the buildings is represented by a Tagset, which is decomposed to multiple Tags.
+We model Point, Equipment, Location, and MeasurementProperty as entities in buildings. Each of these are organized into a hierarchy.</p>
+
+<p><img src="https://raw.githubusercontent.com/BuildSysUniformMetadata/BrickSchemaSite/master/images/class_hierarchy.png" alt="Brick Class Hierarchy" /></p>
+
+<p>As an example, <em>Room Temperature Sensor</em> is a Tagset that consists of Tags, <em>Room</em>, <em>Temperature</em>, and <em>Sensor</em>. <em>Room Temperature Sensor</em> is a subclass of <em>Temperature Sensor</em>, which itself is a subclass of <em>Sensor</em>. With such a hierarchy, one can find a collection of temperature sensors easily using SPARQL or tag search.
+One can also add new Tagsets with Tags if it is not defined in our schema. We encourage you to share your custom Tagsets with us to make <code>Brick</code> more comprehensive (<a href="https://github.com/BuildSysUniformMetadata/GroundTruth/issues">Issues</a>).</p>
+
+<h3 id="tags">Tags</h3>
+
+<p>Tags represent unit concept in buildings and are decomposed from Tagsets. Tags are used to infer Tagsets&rsquo; meaning and search without using a query language.
+For example, one can easily know <em>Room Temperature Sensor</em> is related to <em>Room</em>, <em>Temperature</em>, and <em>Sensor</em> programatically.
+This moderates tag-based representation mechanisms to have more coverage.</p>
+
+<h3 id="relationships">Relationships</h3>
+
+<p>Relationships represent how Brick entities connect with each other.
+<code>Brick</code> has the following relationships. We constrain the subjects and the objects that relationships can have.</p>
+
+<table>
+<thead>
+<tr>
+<th align="center">Relationship</th>
+<th align="center">Definition</th>
+<th align="center">Subject</th>
+<th align="center">Object</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">hasLocation</td>
+<td align="center">A is located in B.</td>
+<td align="center"></td>
+<td align="center">Location</td>
+</tr>
+
+<tr>
+<td align="center">controls</td>
+<td align="center">A determines the internal state of B.</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">isPartOf</td>
+<td align="center">A is a component/part of B.</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">hasPoint</td>
+<td align="center">A has a point B that functions for A.</td>
+<td align="center">Equipment</td>
+<td align="center">Point</td>
+</tr>
+
+<tr>
+<td align="center">feeds</td>
+<td align="center">Something flows from A to B.</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="viewing-brick-files">Viewing Brick Files</h2>
+
+<p><a href="http://viewer.brickschema.org/">http://viewer.brickschema.org/</a> has a simple <code>.ttl</code> file viewer that allows you to see the structure of Brick building files.
+<a href="http://viewer.brickschema.org/static/soda.pdf">Here</a> is an example output for Soda Hall at UC Berkeley.</p>
+
+<p>##Data Format and Query Language
+<code>Brick</code> adheres to the RDF data model (<a href="https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/">Resource Description Framework</a>), which
+represents knowledge as a graph expressed as triples: <code>subject, predicate, object</code></p>
+
+<p>Applications and services can query the RDF representation of a building using
+SPARQL (<a href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL Protocol and RDF Query Language</a>).</p>
+
+
+
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+	<div class="sphinxsidebarwrapper">
+		<p class="logo">
+			<a href="https://brickschema.org/">
+				<img class="logo" src="https://brickschema.org/favicon.ico" alt="Logo"/>
+				<h1 class="logo logo-name">Brick Schema</h1>
+			</a>
+		</p>
+		
+		<p class="blurb">A metadata schema for buildings</p>
+
+		
+
+	<p>
+		<iframe src="https://ghbtns.com/github-btn.html?user=BuildSysUniformMetadata&repo=GroundTruth&type=watch&count=true&size=large"
+		allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+	</p>
+
+	
+
+	
+		
+
+		
+
+<h3>Navigation</h3>
+<ul>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/download/">Downloads</a>
+	</li>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/schema/">Schema</a>
+	</li>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/source/">Development</a>
+	</li>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/structure/">Documentation</a>
+	</li>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/interact/">Interact</a>
+	</li>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/contact/">Contact</a>
+	</li>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/buildsys2017/">BuildSys 2017</a>
+	</li>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/">Brick</a>
+	</li>
+	
+</ul>
+
+
+		<h3>Related Topics</h3>
+<ul>
+  <li><a href="https://brickschema.org/">Documentation overview</a><ul>
+  
+  
+</ul>
+
+	</div>
+</div>
+<div class="clearer"></div>
+</div>
+			<div class="footer">
+	&copy; 2018-02-15 23:17:54.577658238 -0800 PST m=&#43;0.781353280 
+	|
+	Powered by <a href="http://gohugo.io/">Hugo 0.31.1</a>
+	&amp; <a href="https://github.com/digitalcraftsman/hugo-alabaster-theme">Alabaster</a>
+	
+</div>
+
+
+
+
+			
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+			<script>hljs.initHighlightingOnLoad();</script>
+			
+
+			
+		</div>
+	</body>
+</html>

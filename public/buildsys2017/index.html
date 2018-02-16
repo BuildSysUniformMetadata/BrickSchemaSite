@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head lang="en-us">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+	<meta name="description" content="A metadata schema for buildings">
+	<meta name="generator" content="Hugo 0.31.1" />
+	
+	<title>BuildSys 2017 &mdash; Brick Schema</title>
+	
+	<link rel="stylesheet" href="https://brickschema.org/css/alabaster.css" type="text/css" />
+	<link rel="stylesheet" href="https://brickschema.org/css/highlight.css" type="text/css" />
+
+	
+
+	<link rel="shortcut icon" href="https://brickschema.org/favicon.ico" type="image/x-icon"/>
+</head>
+
+	<body role="document">
+		<div class="document">
+			<div class="documentwrapper">
+				<div class="bodywrapper">
+					<div class="body" role="main">
+						
+	<h1>BuildSys 2017</h1>
+	
+	
+
+<p><strong>You can run the tutorial yourself using the <a href="https://github.com/BuildSysUniformMetadata/brick-tutorial-buildsys2017">IPython Notebook!</a></strong></p>
+
+<h2 id="tutorial">Tutorial</h2>
+
+<p>We&rsquo;re running a tutorial at <a href="buildsys.acm.org/2017">BuildSys 2017!</a></p>
+
+<p>A unified metadata schema has an important role in building operation and application interoperability. Brick is a unified metadata schema born from a BuildSys community’s effort on advancing technologies for the built environment. We propose a tutorial session for BuildSys attendants to learn about how to use Brick in their real systems and promote more involvement in Brick development. Interest in Brick from both academia and industry has steadily grown, and a tutorial would be a welcome opportunity to encourage collaboration and discussion.</p>
+
+<h3 id="why-a-new-metadata-schema">Why a new metadata schema?</h3>
+
+<p>In existing Building Management Systems (BMS), contextual information (metadata) of sensors, systems and building structures is either absent or not consistently structured. What metadata does exist fails to capture the information needed by modern building applications such as fault detection, energy analysis, and model predictive control. The design of the Brick schema leverages a systematic study of the published literature to identify which things and relationships an effective metadata schema needs to represent.</p>
+
+<h3 id="brick-schema">Brick Schema</h3>
+
+<p>Brick has two main components: a class hierarchy describing the family of building subsystems and the entities and equipment therein, and a minimal, principled set of relationships for describing the associations and connections between those entities. Brick uses these vocabularies to realize a building as a directed, labeled graph. The representation of this graph leverages the standard RDF data model, which means that Brick usage and development can use existing tooling.</p>
+
+<h3 id="agenda">Agenda</h3>
+
+<p>We have planned a two hour tutorial with a focus on hands-on practice by participants. Below we highlight the major sections of the tutorial, their purpose and what we will cover in them.</p>
+
+<ul>
+<li><p>Introduction to Brick [15 mins]: Outlining the benefits of a standard metadata such as Brick, and what Brick captures that other schemata do not. We want to clarify the role of Brick and give specific examples of the applications that Brick enables. This would also include examples of how Brick has been integrated with existing building systems.</p>
+
+<p>In summary, we will cover:</p>
+
+<ul>
+<li>Basics of Brick schema (RDF, TagSets, relationships)</li>
+<li>A model system architecture with an existing BMS.</li>
+</ul></li>
+
+<li><p>Brick usage and querying [45 mins]: We introduce the RDF data model and standard SPARQL query language. We will demonstrate how Brick leverages these technologies to represent a real-world building. Using interactive queries, attendees will be able to explore the Brick model for the building. We will walk through a methodology for converting existing building metadata to Brick. Attendees will have the opportunity to implement this methodology on real building metadata including unstructured BMS tags and a simple Haystack model.</p>
+
+<p>In summary, we will cover:</p>
+
+<ul>
+<li>The formal syntax of RDF</li>
+<li>How to write an RDF of a simplified building</li>
+<li>How to convert existing BMS points into Brick</li>
+<li>Introduction to SPARQL with examples</li>
+</ul></li>
+
+<li><p>Writing a real Brick application [45 mins]: We demonstrate the use of Brick in a basic analytics application using timeseries data from a real building. We will address points of how to store Brick instances, how a system exploits Brick instances, and how to query needed information from Brick instances for applications. We will progressively build up a portable building application that queries a Brick model in order to discover the building components  it needs to operate.</p>
+
+<p>In summary, we will cover:</p>
+
+<ul>
+<li>Role of Brick between an existing system and applications</li>
+<li>How to store a Brick instance and interact with it</li>
+<li>Find necessary queries for applications</li>
+<li>How to write queries and write applications on top of them</li>
+</ul></li>
+
+<li><p>Feedback [15 mins]: We would like to communicate with various researchers and practitioners at BuildSys to get feedback on the features they want and possible usability improvements to Brick. Since Brick is open-source and follows a community development process where any contribution is open to public. We would like to promote public contributions to Brick so that it covers every aspect that the real world requires.</p>
+
+<p>In summary, we will cover:</p>
+
+<ul>
+<li>How to contribute to Brick using GitHub and developer Google Group</li>
+<li>How to add extensions to Brick with request for comments (RFC)</li>
+<li>Ask for feedback on how to improve Brick</li>
+</ul></li>
+</ul>
+
+<h3 id="logistics">Logistics</h3>
+
+<p>Expected number of participants: 20 - 30</p>
+
+<p>Our tutorial with hands-on practices would attract people who want to have their buildings with normalized metadata.</p>
+
+<p>Participants preparation:</p>
+
+<ul>
+<li>Registration for guaranteed participation.</li>
+<li>A laptop for hands-on tutorial.</li>
+<li>Facilities:</li>
+<li>Projector and large screen for presenting the tutorial</li>
+<li>Wifi access for all attendees</li>
+<li>Tables/chairs for all attendees with a clear view of the projector screen</li>
+</ul>
+
+<p>Organizing Team:</p>
+
+<ul>
+<li>Jason Koh (University of California, San Diego)</li>
+<li>Gabe Fierro (University of California, Berkeley)</li>
+<li>Aslak Johansen (Southern Denmark University)</li>
+<li>Bharathan Balaji (University of California, Los Angeles)</li>
+<li>David Culler (University of California, Berkeley)</li>
+<li>Mani Srivastava (University of California, Los Angeles)</li>
+<li>Rajesh Gupta (University of California, San Diego)</li>
+<li>Yuvraj Agarwal (Carnegie Mellon University)</li>
+<li>Mikkel Kjærgaard (Southern Denmark University)</li>
+<li>Mario Bergés (Carnegie Mellon University)</li>
+</ul>
+
+
+
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+	<div class="sphinxsidebarwrapper">
+		<p class="logo">
+			<a href="https://brickschema.org/">
+				<img class="logo" src="https://brickschema.org/favicon.ico" alt="Logo"/>
+				<h1 class="logo logo-name">Brick Schema</h1>
+			</a>
+		</p>
+		
+		<p class="blurb">A metadata schema for buildings</p>
+
+		
+
+	<p>
+		<iframe src="https://ghbtns.com/github-btn.html?user=BuildSysUniformMetadata&repo=GroundTruth&type=watch&count=true&size=large"
+		allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+	</p>
+
+	
+
+	
+		
+
+		
+
+<h3>Navigation</h3>
+<ul>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/download/">Downloads</a>
+	</li>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/schema/">Schema</a>
+	</li>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/source/">Development</a>
+	</li>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/structure/">Documentation</a>
+	</li>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/interact/">Interact</a>
+	</li>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/contact/">Contact</a>
+	</li>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/buildsys2017/">BuildSys 2017</a>
+	</li>
+	
+	<li class="toctree-l1">
+		<a class="reference internal" href="/">Brick</a>
+	</li>
+	
+</ul>
+
+
+		<h3>Related Topics</h3>
+<ul>
+  <li><a href="https://brickschema.org/">Documentation overview</a><ul>
+  
+  
+</ul>
+
+	</div>
+</div>
+<div class="clearer"></div>
+</div>
+			<div class="footer">
+	&copy; 2018-02-15 23:17:54.578715985 -0800 PST m=&#43;0.782411006 
+	|
+	Powered by <a href="http://gohugo.io/">Hugo 0.31.1</a>
+	&amp; <a href="https://github.com/digitalcraftsman/hugo-alabaster-theme">Alabaster</a>
+	
+</div>
+
+
+
+
+			
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+			<script>hljs.initHighlightingOnLoad();</script>
+			
+
+			
+		</div>
+	</body>
+</html>
