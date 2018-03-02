@@ -40,6 +40,11 @@ The lead maintainers for Brick are:
 * [Gabe Fierro](https://people.eecs.berkeley.edu/~gtfierro/)
 * [Jason Koh](https://jbkoh.github.io/)
 
+## Press Releases
+
+* [ASHRAE, Haystack, Brick Collaboration](https://www.automation.com/automation-news/industry/ashrae-bacnet-committee-project-haystack-and-the-brick-initiative-partner-to-integrate-tagging-and-data-modeling-into-ashrae-standard-223p)
+* [Playing Metadata Tag "U R it."](http://www.automatedbuildings.com/news/jan17/interviews/161227115404sullivan.html)
+
 
 ## Acknowledgements
 
