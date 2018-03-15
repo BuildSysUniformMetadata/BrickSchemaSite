@@ -26,6 +26,8 @@ components:
 
 Additionally, we have ported five real buildings to the `Brick` schema as examples.
 
+See [Brick Whitepaper](/docs/Brick-Leaflet.pdf) to figure out `Brick` at a glance.
+
 See [Getting Brick](/source) for more information.
 
 Our [paper](/papers/Brick-BuildSys2016.pdf) in [BuildSys 2016](http://buildsys.acm.org/2016/) provides additional details.
