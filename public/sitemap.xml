@@ -3,18 +3,105 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://brickschema.org/download/</loc>
+    <lastmod>2016-09-08T15:07:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/schema/</loc>
+    <lastmod>2016-09-08T15:07:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/source/</loc>
+    <lastmod>2016-09-08T15:15:41-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/structure/</loc>
+    <lastmod>2016-09-08T15:15:41-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/interact/</loc>
+    <lastmod>2016-12-12T18:30:41-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/contact/</loc>
+    <lastmod>2016-09-08T15:15:41-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/buildsys2017/</loc>
+    <lastmod>2016-04-23T15:21:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/schema/1.0/</loc>
+    <lastmod>2016-09-08T15:07:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/schema/1.0.1/</loc>
+    <lastmod>2016-09-08T15:07:57-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://brickschema.org/</loc>
     <lastmod>2016-04-23T15:21:22+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://brickschema.org/</loc>
+    <lastmod>2016-09-08T15:07:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/buildsys2017/</loc>
     <lastmod>2016-04-23T15:21:22+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://brickschema.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/contact/</loc>
+    <lastmod>2016-09-08T15:15:41-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/download/</loc>
+    <lastmod>2016-09-08T15:07:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/interact/</loc>
+    <lastmod>2016-12-12T18:30:41-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/schema/</loc>
+    <lastmod>2016-09-08T15:07:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/source/</loc>
+    <lastmod>2016-09-08T15:15:41-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brickschema.org/structure/</loc>
+    <lastmod>2016-09-08T15:15:41-07:00</lastmod>
     <priority>0</priority>
   </url>
   
