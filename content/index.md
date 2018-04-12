@@ -56,7 +56,7 @@ The lead maintainers for Brick are:
 * University of California, San Diego
 * University of California, Los Angeles
 * University of Virginia
-* University of Southern Denmark (Grant: COORDICY(4106-00003B))
+* University of Southern Denmark
 * Carnegie Mellon University
 * IBM Research - Ireland
 
@@ -71,6 +71,8 @@ Brick is supported by:
     * NSF-1305362
 - U.S. Department of Energy grant:
     * DE-EE0006353
+- Innovation Foundation Denmark grant: 
+    * COORDICY 4106-00003B
 - King Abdullah University of Science and Technology award
 - Sensor Innovation Award #OSR-2015-Sensors-2707
 - EU H2020 grant
