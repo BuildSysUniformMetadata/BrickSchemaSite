@@ -30,9 +30,21 @@
 <h3 id="schema-files-turtle-format">Schema Files (Turtle format)</h3>
 
 <ul>
-<li><a href="/schema/1.0.2/Brick.ttl">Brick TagSets</a>: Entity classes with a hierarchy. Major component of Brick.</li>
-<li><a href="/schema/1.0.2/BrickFrame.ttl">Brick Relationships</a>: Brick relationships and meta-structure constructing TagSets with Tags.</li>
-<li><a href="/schema/1.0.2/BrickTag.ttl">Brick Tags</a>: Tags are subcomponents of all TagSets. E.g., <code>Temperature_Sensor</code> consists of <code>Tempearture</code> and <code>Sensor</code>.</li>
+<li><a href="/schema/1.0.2/Brick.ttl">Brick TagSets</a>: Entity classes with a hierarchy. Major component of Brick.
+
+<ul>
+<li>E.g., <code>Temperature_Sensor</code> is a subclass of <code>Sensor</code></li>
+</ul></li>
+<li><a href="/schema/1.0.2/BrickFrame.ttl">Brick Relationships</a>: Brick relationships and meta-structure constructing TagSets with Tags.
+
+<ul>
+<li>E.g., <code>sensor1</code> is a point of <code>vav1</code>.</li>
+</ul></li>
+<li><a href="/schema/1.0.2/BrickTag.ttl">Brick Tags</a>: Tags are subcomponents of all TagSets.
+
+<ul>
+<li>E.g., <code>Temperature_Sensor</code> consists of <code>Tempearture</code> and <code>Sensor</code>.</li>
+</ul></li>
 <li><a href="/schema/1.0.2/BrickUse.ttl">Brick Dimensions</a>: Information dimensions of TagSets.</li>
 </ul>
 
@@ -118,7 +130,7 @@
 <div class="clearer"></div>
 </div>
 			<div class="footer">
-	&copy; 2018-04-20 14:56:05.846815086 -0700 PDT m=&#43;0.234945795 
+	&copy; 2018-04-20 16:30:37.340080188 -0700 PDT m=&#43;0.247070487 
 	|
 	Powered by <a href="http://gohugo.io/">Hugo 0.31.1</a>
 	&amp; <a href="https://github.com/digitalcraftsman/hugo-alabaster-theme">Alabaster</a>
