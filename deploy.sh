@@ -1,4 +1,6 @@
 #!/bin/bash
+./gen_schema_pages
+
 set -ex
 
 # Generate schema documentation
