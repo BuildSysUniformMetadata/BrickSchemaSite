@@ -45,7 +45,7 @@ Relationships represent how Brick entities connect with each other.
 [Here](http://viewer.brickschema.org/static/soda.pdf) is an example output for Soda Hall at UC Berkeley.
 
 
-##Data Format and Query Language
+## Data Format and Query Language
 `Brick` adheres to the RDF data model ([Resource Description Framework](https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/)), which
 represents knowledge as a graph expressed as triples: `subject, predicate, object`
 

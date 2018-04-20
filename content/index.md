@@ -26,11 +26,19 @@ components:
 
 Additionally, we have ported five real buildings to the `Brick` schema as examples.
 
-See [Brick Whitepaper](/docs/Brick-Leaflet.pdf) to figure out `Brick` at a glance.
+## Learning Materials
 
+- See **[Brick Whitepaper](/docs/Brick-Leaflet.pdf)** to figure out `Brick` at a glance.
+
+<!--
 See [Getting Brick](/source) for more information.
+-->
 
-Our [paper](/papers/Brick-BuildSys2016.pdf) in [BuildSys 2016](http://buildsys.acm.org/2016/) provides additional details.
+- See our **[Tutorial Slides](https://docs.google.com/presentation/d/1wgT5S8fgo13cqDPx7DbygWuqAhIp4uxAenP4oDsMaVI/edit?usp=sharing)**. You can add comments to ask questions or discuss anything. We will respond ASAP.
+
+- [Jupyter notebooks](https://github.com/BuildSysUniformMetadata/brick-tutorial-buildsys2017) for those who are more hands-on.
+
+- For more technical details see our papers [BuildSys2016](/papers/Brick-BuildSys2016.pdf) and [AppliedEnergy2018](/paper/Brick-AppliedEnergy2018.pdf)
 
 ## Community
 

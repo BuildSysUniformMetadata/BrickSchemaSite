@@ -6,7 +6,7 @@ menu: Schema
 
 ### Schema Files (Turtle format)
 
-- [Brick TagSet file](/schema/VERSION/Brick.ttl)
-- [Brick Meta Structure file](/schema/VERSION/BrickFrame.ttl)  
-- [Brick Tag file](/schema/VERSION/BrickTag.ttl)
-- [Brick Use file](/schema/VERSION/BrickUse.ttl)
+- [Brick TagSets](/schema/VERSION/Brick.ttl): Entity classes with a hierarchy. Major component of Brick.
+- [Brick Relationships](/schema/VERSION/BrickFrame.ttl): Brick relationships and meta-structure constructing TagSets with Tags.
+- [Brick Tags](/schema/VERSION/BrickTag.ttl): Tags are subcomponents of all TagSets. E.g., ``Temperature_Sensor`` consists of ``Tempearture`` and ``Sensor``.
+- [Brick Dimensions](/schema/VERSION/BrickUse.ttl): Information dimensions of TagSets.
