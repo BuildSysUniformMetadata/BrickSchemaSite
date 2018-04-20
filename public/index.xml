@@ -6,10 +6,21 @@
     <description>Recent content on Brick Schema</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Sep 2016 15:07:57 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 20 Apr 2018 21:34:16 +0000</lastBuildDate>
     
 	<atom:link href="https://brickschema.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Schema</title>
+      <link>https://brickschema.org/schema/</link>
+      <pubDate>Fri, 20 Apr 2018 21:34:16 +0000</pubDate>
+      
+      <guid>https://brickschema.org/schema/</guid>
+      <description> Version 1.0.3
+ Version 1.0.2
+  </description>
+    </item>
     
     <item>
       <title>Downloads</title>
@@ -21,15 +32,6 @@
  Brick.ttl: Brick classes and tagsets BrickFrame.ttl: Brick relationships BrickTag.ttl: Brick tags (internal) BrickUse.ttl: Brick uses relationships (internal)  Past releases are available on GitHub
 Brick Papers and Presentations  BuildSys 2016 Paper BuildSys 2016 Presentation BuildSys 2016 Demo Abstract BuildSys 2016 Poster  Brick Building Examples Example buildings represented in Brick:
  Gates Hillman Center  Location: Carnegie Mellon University, Pittsburgh, PA, USA BMS: Automated Logic Controls Built: 2009 Size: 217,000 sq ft Number of points: 8,292 Tagsets mapped: 99% Number of Relationships: 35,693  Rice Hall  Location: University of Virginia, Charlottesville, VA, USA Built: 2011 Size: 100,000 sq ft Number of points: 1,300 Tagsets mapped: 98.</description>
-    </item>
-    
-    <item>
-      <title>Schema</title>
-      <link>https://brickschema.org/schema/</link>
-      <pubDate>Thu, 08 Sep 2016 15:07:57 -0700</pubDate>
-      
-      <guid>https://brickschema.org/schema/</guid>
-      <description> Version 1.0.2 Version 1.0.1 Version 1.0  </description>
     </item>
     
     <item>
@@ -88,27 +90,29 @@ A unified metadata schema has an important role in building operation and applic
     </item>
     
     <item>
-      <title>Schema version 1.0</title>
-      <link>https://brickschema.org/schema/1.0/</link>
-      <pubDate>Thu, 08 Sep 2016 15:07:57 -0700</pubDate>
+      <title>Schema version 1.0.2</title>
+      <link>https://brickschema.org/schema/1.0.2/</link>
+      <pubDate>Fri, 20 Apr 2018 21:34:16 +0000</pubDate>
       
-      <guid>https://brickschema.org/schema/1.0/</guid>
-      <description>Schema Files (Turtle format) Brick Meta Structure file
-Brick Tagset File
-Brick Tag File</description>
+      <guid>https://brickschema.org/schema/1.0.2/</guid>
+      <description> Schema Files (Turtle format)  Brick Meta Structure file
+ Brick TagSet file
+ Brick Tag file
+ Brick Use file (barely used)
+  </description>
     </item>
     
     <item>
-      <title>Schema version 1.0.1</title>
-      <link>https://brickschema.org/schema/1.0.1/</link>
-      <pubDate>Thu, 08 Sep 2016 15:07:57 -0700</pubDate>
+      <title>Schema version 1.0.3</title>
+      <link>https://brickschema.org/schema/1.0.3/</link>
+      <pubDate>Fri, 20 Apr 2018 21:34:16 +0000</pubDate>
       
-      <guid>https://brickschema.org/schema/1.0.1/</guid>
-      <description>Schema Documentation Brick Tagsets
-Brick Properties
-Schema Files (Turtle format) Brick Meta Structure file
-Brick Tagset File
-Brick Tag File</description>
+      <guid>https://brickschema.org/schema/1.0.3/</guid>
+      <description> Schema Files (Turtle format)  Brick Meta Structure file
+ Brick TagSet file
+ Brick Tag file
+ Brick Use file (barely used)
+  </description>
     </item>
     
     <item>

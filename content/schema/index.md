@@ -1,10 +1,9 @@
 ---
-date: 2016-09-08T15:07:57-07:00
+date: 2018-04-20T21:34:16Z
 title: Schema
 menu: main
 weight: 1
 ---
 
-* [Version 1.0.2](1.0.2)
-* [Version 1.0.1](1.0.1)
-* [Version 1.0](1.0)
+* [Version 1.0.3](1.0.3)  
+* [Version 1.0.2](1.0.2)  

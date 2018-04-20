@@ -1,0 +1,51 @@
+#!/bin/bash
+
+declare -a versions=("1.0.3" "1.0.2")
+
+base_dir=$(pwd)
+echo $base_dir
+
+if [ -d "Brick" ]; then
+    rm -rf Brick
+fi
+
+git clone https://github.com/BuildSysUniformMetadata/Brick.git
+cd Brick/dist
+
+for version in "${versions[@]}"
+do
+    echo $version
+    git checkout v$version
+    target_dir=$base_dir/static/schema/$version
+    mkdir -p $target_dir
+    cp *.ttl $target_dir
+done
+
+cd $base_dir
+
+now=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+for version in "${versions[@]}"
+do
+    content_dir=content/schema/$version
+    echo $content_dir
+    mkdir -p $content_dir
+    content_file=$content_dir/index.md
+    echo $content_file
+    cp template/schema-version-index.md.template $content_file
+    #pattern="'s/DATE/$now/g'"
+    declare -a patterns=("s/DATE/$now/g" "s/VERSION/$version/g")
+    for pattern in "${patterns[@]}"
+    do
+        sed -i $pattern  $content_file
+    done
+done
+
+index_file=content/schema/index.md
+rm $index_file
+cp template/schema-index.md.template $index_file
+sed -i s/DATE/$now/g $index_file
+
+for version in "${versions[@]}"
+do
+    echo "* [Version $version]($version)  " >> $index_file
+done

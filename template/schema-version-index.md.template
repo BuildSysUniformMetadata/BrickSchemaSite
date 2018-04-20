@@ -1,0 +1,12 @@
+---
+date: DATE
+title: Schema version VERSION
+menu: Schema
+---
+
+### Schema Files (Turtle format)
+
+- [Brick TagSet file](/schema/VERSION/Brick.ttl)
+- [Brick Meta Structure file](/schema/VERSION/BrickFrame.ttl)  
+- [Brick Tag file](/schema/VERSION/BrickTag.ttl)
+- [Brick Use file](/schema/VERSION/BrickUse.ttl)
