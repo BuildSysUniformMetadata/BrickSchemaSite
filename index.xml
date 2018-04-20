@@ -6,7 +6,7 @@
     <description>Recent content on Brick Schema</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Apr 2018 21:40:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Apr 2018 21:56:05 +0000</lastBuildDate>
     
 	<atom:link href="https://brickschema.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Schema</title>
       <link>https://brickschema.org/schema/</link>
-      <pubDate>Fri, 20 Apr 2018 21:40:06 +0000</pubDate>
+      <pubDate>Fri, 20 Apr 2018 21:56:05 +0000</pubDate>
       
       <guid>https://brickschema.org/schema/</guid>
       <description> Version 1.0.3
@@ -92,21 +92,19 @@ A unified metadata schema has an important role in building operation and applic
     <item>
       <title>Schema version 1.0.2</title>
       <link>https://brickschema.org/schema/1.0.2/</link>
-      <pubDate>Fri, 20 Apr 2018 21:40:06 +0000</pubDate>
+      <pubDate>Fri, 20 Apr 2018 21:56:05 +0000</pubDate>
       
       <guid>https://brickschema.org/schema/1.0.2/</guid>
-      <description> Schema Files (Turtle format)  Brick TagSet file Brick Meta Structure file
- Brick Tag file Brick Use file  </description>
+      <description> Schema Files (Turtle format)  Brick TagSets: Entity classes with a hierarchy. Major component of Brick. Brick Relationships: Brick relationships and meta-structure constructing TagSets with Tags. Brick Tags: Tags are subcomponents of all TagSets. E.g., Temperature_Sensor consists of Tempearture and Sensor. Brick Dimensions: Information dimensions of TagSets.  </description>
     </item>
     
     <item>
       <title>Schema version 1.0.3</title>
       <link>https://brickschema.org/schema/1.0.3/</link>
-      <pubDate>Fri, 20 Apr 2018 21:40:06 +0000</pubDate>
+      <pubDate>Fri, 20 Apr 2018 21:56:05 +0000</pubDate>
       
       <guid>https://brickschema.org/schema/1.0.3/</guid>
-      <description> Schema Files (Turtle format)  Brick TagSet file Brick Meta Structure file
- Brick Tag file Brick Use file  </description>
+      <description> Schema Files (Turtle format)  Brick TagSets: Entity classes with a hierarchy. Major component of Brick. Brick Relationships: Brick relationships and meta-structure constructing TagSets with Tags. Brick Tags: Tags are subcomponents of all TagSets. E.g., Temperature_Sensor consists of Tempearture and Sensor. Brick Dimensions: Information dimensions of TagSets.  </description>
     </item>
     
     <item>
