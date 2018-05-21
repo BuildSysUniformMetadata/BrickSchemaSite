@@ -38,7 +38,7 @@ See [Getting Brick](/source) for more information.
 
 - [Jupyter notebooks](https://github.com/BuildSysUniformMetadata/brick-tutorial-buildsys2017) for those who are more hands-on.
 
-- For more technical details see our papers [BuildSys2016](/papers/Brick-BuildSys2016.pdf) and [AppliedEnergy2018](/paper/Brick-AppliedEnergy2018.pdf)
+- For more technical details see our papers [BuildSys2016](/papers/Brick-BuildSys2016.pdf) and [AppliedEnergy2018](/papers/Brick-AppliedEnergy2018.pdf)
 
 ## Community
 
